@@ -1,6 +1,6 @@
 {
   "benchmark": "medmcqa",
-  "input_jsonl": "CRAG/results/medmcqa/confidence_runs/crag_qwen25_7b_medmcqa_60_crag_qwen25_7b_medmcqa_20260613_172254.jsonl",
+  "input_jsonl": "CRAG/results/medmcqa/confidence_runs/crag_7b_medmcqa.jsonl",
   "missing_confidence_policy": "abstain",
   "eval_split": null,
   "selected_threshold": null,

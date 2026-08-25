@@ -1,6 +1,6 @@
 {
   "benchmark": "pubmedqa",
-  "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_qwen25_7b_pubmedqa_60_full1000_20260614_161142.jsonl",
+  "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_7b_pubmedqa_full1000.jsonl",
   "missing_confidence_policy": "abstain",
   "eval_split": null,
   "selected_threshold": null,

@@ -1,6 +1,6 @@
 {
   "benchmark": "medmcqa",
-  "input_jsonl": "results/medmcqa/confidence_runs/ircot_qwen25_7b_medmcqa_60_ircot_qwen25_7b_evidence_conf_v1_medmcqa_20260613_075253.jsonl",
+  "input_jsonl": "results/medmcqa/confidence_runs/ircot_7b_medmcqa.jsonl",
   "missing_confidence_policy": "abstain",
   "eval_split": "eval",
   "selected_threshold": 0.8,

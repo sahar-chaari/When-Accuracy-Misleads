@@ -1,6 +1,6 @@
 {
   "benchmark": "medmcqa",
-  "input_jsonl": "HippoRAG\\results\\medmcqa\\hipporag_qwen25_7b_medmcqa_60_20260615.jsonl",
+  "input_jsonl": "HippoRAG\\results\\medmcqa\\hipporag_7b_medmcqa.jsonl",
   "missing_confidence_policy": "abstain",
   "eval_split": null,
   "selected_threshold": null,

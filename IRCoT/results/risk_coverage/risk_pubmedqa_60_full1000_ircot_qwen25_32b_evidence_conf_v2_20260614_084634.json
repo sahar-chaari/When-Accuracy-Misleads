@@ -1,6 +1,6 @@
 {
   "benchmark": "pubmedqa",
-  "input_jsonl": "results/pubmedqa/confidence_runs/ircot_qwen25_32b_pubmedqa_60_full1000_ircot_qwen25_32b_evidence_conf_v2_20260614_084634.jsonl",
+  "input_jsonl": "results/pubmedqa/confidence_runs/ircot_32b_pubmedqa_full1000.jsonl",
   "missing_confidence_policy": "abstain",
   "eval_split": null,
   "selected_threshold": null,

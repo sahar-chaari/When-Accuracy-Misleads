@@ -40,7 +40,7 @@
         "A": 18,
         "C": 3
       },
-      "input_jsonl": "IRCoT/results/medmcqa/confidence_runs/ircot_qwen25_7b_medmcqa_60_ircot_qwen25_7b_evidence_conf_v1_medmcqa_20260613_075253.jsonl"
+      "input_jsonl": "IRCoT/results/medmcqa/confidence_runs/ircot_7b_medmcqa.jsonl"
     },
     "IRCoT 32B|MedMCQA": {
       "system": "IRCoT 32B",
@@ -56,7 +56,7 @@
         "B": 8,
         "C": 2
       },
-      "input_jsonl": "IRCoT/results/medmcqa/confidence_runs/ircot_qwen25_32b_medmcqa_60_ircot_qwen25_32b_evidence_conf_v1_medmcqa_20260613_154532.jsonl"
+      "input_jsonl": "IRCoT/results/medmcqa/confidence_runs/ircot_32b_medmcqa.jsonl"
     },
     "CRAG 7B|MedMCQA": {
       "system": "CRAG 7B",
@@ -72,7 +72,7 @@
         "A": 26,
         "C": 3
       },
-      "input_jsonl": "CRAG/results/medmcqa/confidence_runs/crag_qwen25_7b_medmcqa_60_crag_qwen25_7b_medmcqa_20260613_172254.jsonl"
+      "input_jsonl": "CRAG/results/medmcqa/confidence_runs/crag_7b_medmcqa.jsonl"
     },
     "CRAG 32B|MedMCQA": {
       "system": "CRAG 32B",
@@ -88,7 +88,7 @@
         "A": 25,
         "C": 2
       },
-      "input_jsonl": "CRAG/results/medmcqa/confidence_runs/crag_qwen25_32b_medmcqa_60_crag_qwen25_32b_medmcqa_20260613_175948.jsonl"
+      "input_jsonl": "CRAG/results/medmcqa/confidence_runs/crag_32b_medmcqa.jsonl"
     },
     "HippoRAG 7B|MedMCQA": {
       "system": "HippoRAG 7B",
@@ -104,7 +104,7 @@
         "B": 7,
         "C": 2
       },
-      "input_jsonl": "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615.jsonl"
+      "input_jsonl": "HippoRAG/results/medmcqa/hipporag_7b_medmcqa.jsonl"
     },
     "HippoRAG 32B|MedMCQA": {
       "system": "HippoRAG 32B",
@@ -120,7 +120,7 @@
         "B": 8,
         "C": 2
       },
-      "input_jsonl": "HippoRAG/results/medmcqa/hipporag_qwen25_32b_medmcqa_60_20260614_042849.jsonl"
+      "input_jsonl": "HippoRAG/results/medmcqa/hipporag_32b_medmcqa.jsonl"
     },
     "IRCoT 7B|PubMedQA": {
       "system": "IRCoT 7B",
@@ -135,7 +135,7 @@
         "A": 6,
         "B": 27
       },
-      "input_jsonl": "IRCoT/results/pubmedqa/confidence_runs/ircot_qwen25_7b_pubmedqa_60_full1000_ircot_qwen25_7b_evidence_conf_v2_20260614_084634.jsonl"
+      "input_jsonl": "IRCoT/results/pubmedqa/confidence_runs/ircot_7b_pubmedqa_full1000.jsonl"
     },
     "IRCoT 32B|PubMedQA": {
       "system": "IRCoT 32B",
@@ -150,7 +150,7 @@
         "A": 6,
         "B": 22
       },
-      "input_jsonl": "IRCoT/results/pubmedqa/confidence_runs/ircot_qwen25_32b_pubmedqa_60_full1000_ircot_qwen25_32b_evidence_conf_v2_20260614_084634.jsonl"
+      "input_jsonl": "IRCoT/results/pubmedqa/confidence_runs/ircot_32b_pubmedqa_full1000.jsonl"
     },
     "CRAG 7B|PubMedQA": {
       "system": "CRAG 7B",
@@ -165,7 +165,7 @@
         "A": 8,
         "B": 26
       },
-      "input_jsonl": "CRAG/results/pubmedqa/confidence_runs/crag_qwen25_7b_pubmedqa_60_full1000_20260614_084944.jsonl"
+      "input_jsonl": "CRAG/results/pubmedqa/confidence_runs/crag_7b_pubmedqa_full1000.jsonl"
     },
     "CRAG 32B|PubMedQA": {
       "system": "CRAG 32B",
@@ -181,7 +181,7 @@
         "B": 26,
         "C": 1
       },
-      "input_jsonl": "CRAG/results/pubmedqa/confidence_runs/crag_qwen25_32b_pubmedqa_60_full1000_20260614_084634.jsonl"
+      "input_jsonl": "CRAG/results/pubmedqa/confidence_runs/crag_32b_pubmedqa_full1000.jsonl"
     },
     "HippoRAG 7B|PubMedQA": {
       "system": "HippoRAG 7B",
@@ -196,7 +196,7 @@
         "A": 7,
         "B": 23
       },
-      "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_qwen25_7b_pubmedqa_60_full1000_20260614_161142.jsonl"
+      "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_7b_pubmedqa_full1000.jsonl"
     },
     "HippoRAG 32B|PubMedQA": {
       "system": "HippoRAG 32B",
@@ -211,7 +211,7 @@
         "A": 6,
         "B": 23
       },
-      "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_qwen25_32b_pubmedqa_60_full1000_resume_20260614_104710.jsonl"
+      "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_32b_pubmedqa_full1000.jsonl"
     }
   }
 }

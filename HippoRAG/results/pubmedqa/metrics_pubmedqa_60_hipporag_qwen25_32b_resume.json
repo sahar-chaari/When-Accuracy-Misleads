@@ -37,5 +37,5 @@
   "avg_retrieval_recall": null,
   "avg_retrieval_recall_pmid": 0.8036111111111109,
   "error_count": 0,
-  "input_jsonl": "results/pubmedqa/hipporag_qwen25_32b_pubmedqa_60_full1000_resume_20260614_104710.jsonl"
+  "input_jsonl": "results/pubmedqa/hipporag_32b_pubmedqa_full1000.jsonl"
 }

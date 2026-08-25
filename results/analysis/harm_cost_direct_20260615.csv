@@ -1,13 +1,13 @@
 system,benchmark,n,errors,weighted_error,total_severity_weight,H,H_rounded_3,error_class_counts,input_jsonl
-IRCoT 7B,MedMCQA,60,30,84,141,0.5957446808510638,0.596,"{'B': 9, 'A': 18, 'C': 3}",IRCoT/results/medmcqa/confidence_runs/ircot_qwen25_7b_medmcqa_60_ircot_qwen25_7b_evidence_conf_v1_medmcqa_20260613_075253.jsonl
-IRCoT 32B,MedMCQA,60,29,71,141,0.5035460992907801,0.504,"{'A': 19, 'B': 8, 'C': 2}",IRCoT/results/medmcqa/confidence_runs/ircot_qwen25_32b_medmcqa_60_ircot_qwen25_32b_evidence_conf_v1_medmcqa_20260613_154532.jsonl
-CRAG 7B,MedMCQA,60,38,92,141,0.6524822695035462,0.652,"{'B': 9, 'A': 26, 'C': 3}",CRAG/results/medmcqa/confidence_runs/crag_qwen25_7b_medmcqa_60_crag_qwen25_7b_medmcqa_20260613_172254.jsonl
-CRAG 32B,MedMCQA,60,35,77,141,0.5460992907801419,0.546,"{'B': 8, 'A': 25, 'C': 2}",CRAG/results/medmcqa/confidence_runs/crag_qwen25_32b_medmcqa_60_crag_qwen25_32b_medmcqa_20260613_175948.jsonl
-HippoRAG 7B,MedMCQA,60,31,70,141,0.49645390070921985,0.496,"{'A': 22, 'B': 7, 'C': 2}",HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615.jsonl
-HippoRAG 32B,MedMCQA,60,29,71,141,0.5035460992907801,0.504,"{'A': 19, 'B': 8, 'C': 2}",HippoRAG/results/medmcqa/hipporag_qwen25_32b_medmcqa_60_20260614_042849.jsonl
-IRCoT 7B,PubMedQA,60,33,114,204,0.5588235294117647,0.559,"{'A': 6, 'B': 27}",IRCoT/results/pubmedqa/confidence_runs/ircot_qwen25_7b_pubmedqa_60_full1000_ircot_qwen25_7b_evidence_conf_v2_20260614_084634.jsonl
-IRCoT 32B,PubMedQA,60,28,94,204,0.46078431372549017,0.461,"{'A': 6, 'B': 22}",IRCoT/results/pubmedqa/confidence_runs/ircot_qwen25_32b_pubmedqa_60_full1000_ircot_qwen25_32b_evidence_conf_v2_20260614_084634.jsonl
-CRAG 7B,PubMedQA,60,34,112,204,0.5490196078431373,0.549,"{'A': 8, 'B': 26}",CRAG/results/pubmedqa/confidence_runs/crag_qwen25_7b_pubmedqa_60_full1000_20260614_084944.jsonl
-CRAG 32B,PubMedQA,60,36,123,204,0.6029411764705882,0.603,"{'A': 9, 'B': 26, 'C': 1}",CRAG/results/pubmedqa/confidence_runs/crag_qwen25_32b_pubmedqa_60_full1000_20260614_084634.jsonl
-HippoRAG 7B,PubMedQA,60,30,99,204,0.4852941176470588,0.485,"{'A': 7, 'B': 23}",HippoRAG/results/pubmedqa/hipporag_qwen25_7b_pubmedqa_60_full1000_20260614_161142.jsonl
-HippoRAG 32B,PubMedQA,60,29,98,204,0.4803921568627451,0.48,"{'A': 6, 'B': 23}",HippoRAG/results/pubmedqa/hipporag_qwen25_32b_pubmedqa_60_full1000_resume_20260614_104710.jsonl
+IRCoT 7B,MedMCQA,60,30,84,141,0.5957446808510638,0.596,"{'B': 9, 'A': 18, 'C': 3}",IRCoT/results/medmcqa/confidence_runs/ircot_7b_medmcqa.jsonl
+IRCoT 32B,MedMCQA,60,29,71,141,0.5035460992907801,0.504,"{'A': 19, 'B': 8, 'C': 2}",IRCoT/results/medmcqa/confidence_runs/ircot_32b_medmcqa.jsonl
+CRAG 7B,MedMCQA,60,38,92,141,0.6524822695035462,0.652,"{'B': 9, 'A': 26, 'C': 3}",CRAG/results/medmcqa/confidence_runs/crag_7b_medmcqa.jsonl
+CRAG 32B,MedMCQA,60,35,77,141,0.5460992907801419,0.546,"{'B': 8, 'A': 25, 'C': 2}",CRAG/results/medmcqa/confidence_runs/crag_32b_medmcqa.jsonl
+HippoRAG 7B,MedMCQA,60,31,70,141,0.49645390070921985,0.496,"{'A': 22, 'B': 7, 'C': 2}",HippoRAG/results/medmcqa/hipporag_7b_medmcqa.jsonl
+HippoRAG 32B,MedMCQA,60,29,71,141,0.5035460992907801,0.504,"{'A': 19, 'B': 8, 'C': 2}",HippoRAG/results/medmcqa/hipporag_32b_medmcqa.jsonl
+IRCoT 7B,PubMedQA,60,33,114,204,0.5588235294117647,0.559,"{'A': 6, 'B': 27}",IRCoT/results/pubmedqa/confidence_runs/ircot_7b_pubmedqa_full1000.jsonl
+IRCoT 32B,PubMedQA,60,28,94,204,0.46078431372549017,0.461,"{'A': 6, 'B': 22}",IRCoT/results/pubmedqa/confidence_runs/ircot_32b_pubmedqa_full1000.jsonl
+CRAG 7B,PubMedQA,60,34,112,204,0.5490196078431373,0.549,"{'A': 8, 'B': 26}",CRAG/results/pubmedqa/confidence_runs/crag_7b_pubmedqa_full1000.jsonl
+CRAG 32B,PubMedQA,60,36,123,204,0.6029411764705882,0.603,"{'A': 9, 'B': 26, 'C': 1}",CRAG/results/pubmedqa/confidence_runs/crag_32b_pubmedqa_full1000.jsonl
+HippoRAG 7B,PubMedQA,60,30,99,204,0.4852941176470588,0.485,"{'A': 7, 'B': 23}",HippoRAG/results/pubmedqa/hipporag_7b_pubmedqa_full1000.jsonl
+HippoRAG 32B,PubMedQA,60,29,98,204,0.4803921568627451,0.48,"{'A': 6, 'B': 23}",HippoRAG/results/pubmedqa/hipporag_32b_pubmedqa_full1000.jsonl

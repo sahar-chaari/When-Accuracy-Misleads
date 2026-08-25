@@ -31,51 +31,51 @@ run_one() {
 }
 
 run_one \
-  "IRCoT/results/medmcqa/confidence_runs/ircot_qwen25_7b_medmcqa_60_ircot_qwen25_7b_evidence_conf_v1_medmcqa_20260613_075253.jsonl" \
+  "IRCoT/results/medmcqa/confidence_runs/ircot_7b_medmcqa.jsonl" \
   "faithfulness_ircot_7b_medmcqa"
 
 run_one \
-  "IRCoT/results/pubmedqa/confidence_runs/ircot_qwen25_7b_pubmedqa_60_full1000_ircot_qwen25_7b_evidence_conf_v2_20260614_084634.jsonl" \
+  "IRCoT/results/pubmedqa/confidence_runs/ircot_7b_pubmedqa_full1000.jsonl" \
   "faithfulness_ircot_7b_pubmedqa_full1000"
 
 run_one \
-  "IRCoT/results/medmcqa/confidence_runs/ircot_qwen25_32b_medmcqa_60_ircot_qwen25_32b_evidence_conf_v1_medmcqa_20260613_154532.jsonl" \
+  "IRCoT/results/medmcqa/confidence_runs/ircot_32b_medmcqa.jsonl" \
   "faithfulness_ircot_32b_medmcqa"
 
 run_one \
-  "IRCoT/results/pubmedqa/confidence_runs/ircot_qwen25_32b_pubmedqa_60_full1000_ircot_qwen25_32b_evidence_conf_v2_20260614_084634.jsonl" \
+  "IRCoT/results/pubmedqa/confidence_runs/ircot_32b_pubmedqa_full1000.jsonl" \
   "faithfulness_ircot_32b_pubmedqa_full1000"
 
 run_one \
-  "CRAG/results/medmcqa/confidence_runs/crag_qwen25_7b_medmcqa_60_crag_qwen25_7b_medmcqa_20260613_172254.jsonl" \
+  "CRAG/results/medmcqa/confidence_runs/crag_7b_medmcqa.jsonl" \
   "faithfulness_crag_7b_medmcqa"
 
 run_one \
-  "CRAG/results/pubmedqa/confidence_runs/crag_qwen25_7b_pubmedqa_60_full1000_20260614_084944.jsonl" \
+  "CRAG/results/pubmedqa/confidence_runs/crag_7b_pubmedqa_full1000.jsonl" \
   "faithfulness_crag_7b_pubmedqa_full1000"
 
 run_one \
-  "CRAG/results/medmcqa/confidence_runs/crag_qwen25_32b_medmcqa_60_crag_qwen25_32b_medmcqa_20260613_175948.jsonl" \
+  "CRAG/results/medmcqa/confidence_runs/crag_32b_medmcqa.jsonl" \
   "faithfulness_crag_32b_medmcqa"
 
 run_one \
-  "CRAG/results/pubmedqa/confidence_runs/crag_qwen25_32b_pubmedqa_60_full1000_20260614_084634.jsonl" \
+  "CRAG/results/pubmedqa/confidence_runs/crag_32b_pubmedqa_full1000.jsonl" \
   "faithfulness_crag_32b_pubmedqa_full1000"
 
 run_one \
-  "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615.jsonl" \
+  "HippoRAG/results/medmcqa/hipporag_7b_medmcqa.jsonl" \
   "faithfulness_hipporag_7b_medmcqa"
 
 run_one \
-  "HippoRAG/results/pubmedqa/hipporag_qwen25_7b_pubmedqa_60_full1000_20260614_161142.jsonl" \
+  "HippoRAG/results/pubmedqa/hipporag_7b_pubmedqa_full1000.jsonl" \
   "faithfulness_hipporag_7b_pubmedqa_full1000"
 
 run_one \
-  "HippoRAG/results/medmcqa/hipporag_qwen25_32b_medmcqa_60_20260614_042849.jsonl" \
+  "HippoRAG/results/medmcqa/hipporag_32b_medmcqa.jsonl" \
   "faithfulness_hipporag_32b_medmcqa"
 
 run_one \
-  "HippoRAG/results/pubmedqa/hipporag_qwen25_32b_pubmedqa_60_full1000_resume_20260614_104710.jsonl" \
+  "HippoRAG/results/pubmedqa/hipporag_32b_pubmedqa_full1000.jsonl" \
   "faithfulness_hipporag_32b_pubmedqa_full1000"
 
 echo ""

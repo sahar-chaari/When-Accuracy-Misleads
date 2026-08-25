@@ -48,5 +48,5 @@
     }
   },
   "error_count": 0,
-  "input_jsonl": "results/medmcqa/confidence_runs/crag_qwen25_32b_medmcqa_60_crag_qwen25_32b_medmcqa_20260613_175948.jsonl"
+  "input_jsonl": "results/medmcqa/confidence_runs/crag_32b_medmcqa.jsonl"
 }

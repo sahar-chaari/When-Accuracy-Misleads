@@ -6,9 +6,9 @@
   "questions_jsonl": "data/fixed/medmcqa_60_balanced_seed42_questions.jsonl",
   "corpus_jsonl": "data/corpus/medrag_textbooks_statpearls_corpus.jsonl",
   "corpus_limit": null,
-  "output_jsonl": "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615.jsonl",
+  "output_jsonl": "HippoRAG/results/medmcqa/hipporag_7b_medmcqa.jsonl",
   "metrics_json": "HippoRAG/results/medmcqa/metrics_medmcqa_60_hipporag_qwen25_7b_20260615.json",
-  "save_dir": "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615_hipporag_workdir",
+  "save_dir": "HippoRAG/results/medmcqa/hipporag_7b_medmcqa_hipporag_workdir",
   "llm_name": "Qwen/Qwen2.5-7B-Instruct",
   "llm_base_url": "openai-compatible endpoint",
   "embedding_name": "Transformers/models/minilm_l6",
@@ -35,7 +35,7 @@
     "graph_extracted_fact_count": 93486,
     "graph_total_triples": 1595703,
     "openie_json_files": [
-      "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615_hipporag_workdir/openie_results_ner_Qwen_Qwen2.5-7B-Instruct.json"
+      "HippoRAG/results/medmcqa/hipporag_7b_medmcqa_hipporag_workdir/openie_results_ner_Qwen_Qwen2.5-7B-Instruct.json"
     ],
     "openie_rows": 20000,
     "openie_extracted_triples": 96299,

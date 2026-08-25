@@ -37,5 +37,5 @@
   "avg_retrieval_recall": 0.8366666666666664,
   "avg_retrieval_recall_pmid": null,
   "error_count": 0,
-  "input_jsonl": "results/pubmedqa/confidence_runs/ircot_qwen25_7b_pubmedqa_60_full1000_ircot_qwen25_7b_evidence_conf_v2_20260614_084634.jsonl"
+  "input_jsonl": "results/pubmedqa/confidence_runs/ircot_7b_pubmedqa_full1000.jsonl"
 }
