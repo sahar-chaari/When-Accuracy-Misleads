@@ -16,5 +16,3 @@ logs/
 # macOS
 .DS_Store
 
-*.md
-*.tex

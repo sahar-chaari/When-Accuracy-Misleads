@@ -1,0 +1,24 @@
+% auarc_table_rows
+\multirow{2}{*}{IRCoT}     & 7B  & 0.452 & \textbf{0.607} \\
+                            & 32B & 0.595 & 0.471 \\
+\multirow{2}{*}{CRAG}      & 7B  & 0.513 & 0.431 \\
+                            & 32B & 0.445 & 0.505 \\
+\multirow{2}{*}{HippoRAG~2}& 7B  & 0.513 & 0.356 \\
+                            & 32B & \textbf{0.697} & 0.449 \\
+
+% ranking_table_rows
+\multirow{2}{*}{IRCoT} & 7B & 3 & 5 & 4 & \textbf{1} \\
+                         & 32B & \textbf{1} & 2 & \textbf{1} & 3 \\
+\multirow{2}{*}{CRAG} & 7B & 6 & 3 & 5 & 5 \\
+                         & 32B & 5 & 6 & 6 & 2 \\
+\multirow{2}{*}{HippoRAG~2} & 7B & 4 & 4 & 3 & 6 \\
+                         & 32B & \textbf{1} & \textbf{1} & 2 & 4 \\
+
+% spearman_table_rows
+F1 vs.\ AUARC      & $-0.01$ & $0.966$\;\textrm{ns} \\
+F1 vs.\ Sup\%      & $+0.25$ & $0.433$\;\textrm{ns} \\
+F1 vs.\ $-H$       & $+0.80$ & $0.002$\;* \\
+AUARC vs.\ Sup\%   & $-0.49$ & $0.109$\;\textrm{ns} \\
+AUARC vs.\ $-H$    & $-0.24$ & $0.456$\;\textrm{ns} \\
+Sup\% vs.\ $-H$    & $+0.48$ & $0.112$\;\textrm{ns} \\
+
