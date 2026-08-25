@@ -1,0 +1,17 @@
+{
+  "source": "HuggingFace medmcqa validation",
+  "output": "data/fixed/medmcqa_60_balanced_seed42_questions.jsonl",
+  "seed": 42,
+  "per_choice": 15,
+  "total": 60,
+  "choice_counts": {
+    "A": 15,
+    "D": 15,
+    "C": 15,
+    "B": 15
+  },
+  "split_counts": {
+    "tune": 30,
+    "eval": 30
+  }
+}

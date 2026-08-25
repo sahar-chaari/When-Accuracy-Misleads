@@ -1,0 +1,146 @@
+{
+  "n_configurations": 12,
+  "note_harm": "H values are negated (-H) so higher = better for all axes",
+  "score_table": [
+    {
+      "system": "IRCoT 7B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 50.4,
+      "auarc": 0.452472,
+      "faithful_sup_pct": 5.0,
+      "neg_harm_h": -0.596
+    },
+    {
+      "system": "IRCoT 32B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 51.1,
+      "auarc": 0.595158,
+      "faithful_sup_pct": 3.3,
+      "neg_harm_h": -0.504
+    },
+    {
+      "system": "CRAG 7B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 37.1,
+      "auarc": 0.51326,
+      "faithful_sup_pct": 1.7,
+      "neg_harm_h": -0.652
+    },
+    {
+      "system": "CRAG 32B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 44.8,
+      "auarc": 0.445165,
+      "faithful_sup_pct": 8.3,
+      "neg_harm_h": -0.546
+    },
+    {
+      "system": "HippoRAG 7B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 48.2,
+      "auarc": 0.512523,
+      "faithful_sup_pct": 3.3,
+      "neg_harm_h": -0.496
+    },
+    {
+      "system": "HippoRAG 32B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 50.8,
+      "auarc": 0.697379,
+      "faithful_sup_pct": 5.0,
+      "neg_harm_h": -0.504
+    },
+    {
+      "system": "IRCoT 7B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 42.4,
+      "auarc": 0.607405,
+      "faithful_sup_pct": 11.7,
+      "neg_harm_h": -0.559
+    },
+    {
+      "system": "IRCoT 32B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 52.7,
+      "auarc": 0.471208,
+      "faithful_sup_pct": 18.3,
+      "neg_harm_h": -0.461
+    },
+    {
+      "system": "CRAG 7B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 43.1,
+      "auarc": 0.43078,
+      "faithful_sup_pct": 6.7,
+      "neg_harm_h": -0.549
+    },
+    {
+      "system": "CRAG 32B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 40.2,
+      "auarc": 0.505146,
+      "faithful_sup_pct": 11.7,
+      "neg_harm_h": -0.603
+    },
+    {
+      "system": "HippoRAG 7B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 46.3,
+      "auarc": 0.355717,
+      "faithful_sup_pct": 18.3,
+      "neg_harm_h": -0.485
+    },
+    {
+      "system": "HippoRAG 32B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 52.3,
+      "auarc": 0.448587,
+      "faithful_sup_pct": 21.7,
+      "neg_harm_h": -0.48
+    }
+  ],
+  "spearman_correlations": [
+    {
+      "pair": "F1 vs AUARC",
+      "key": "f1-auarc",
+      "rho": -0.014,
+      "p_value": 0.9656,
+      "significant_05": false
+    },
+    {
+      "pair": "F1 vs Sup%",
+      "key": "f1-faithful",
+      "rho": 0.25,
+      "p_value": 0.4332,
+      "significant_05": false
+    },
+    {
+      "pair": "F1 vs -H",
+      "key": "f1-harm",
+      "rho": 0.8021,
+      "p_value": 0.0017,
+      "significant_05": true
+    },
+    {
+      "pair": "AUARC vs Sup%",
+      "key": "auarc-faithful",
+      "rho": -0.4859,
+      "p_value": 0.1092,
+      "significant_05": false
+    },
+    {
+      "pair": "AUARC vs -H",
+      "key": "auarc-harm",
+      "rho": -0.2382,
+      "p_value": 0.456,
+      "significant_05": false
+    },
+    {
+      "pair": "Sup% vs -H",
+      "key": "faithful-harm",
+      "rho": 0.4833,
+      "p_value": 0.1115,
+      "significant_05": false
+    }
+  ]
+}

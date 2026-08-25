@@ -1,0 +1,217 @@
+{
+  "method": "Direct IEC 62304-inspired harm cost from released question-level severity ledgers; H=sum(error weights)/sum(question weights).",
+  "weights": {
+    "A": 1,
+    "B": 4,
+    "C": 10
+  },
+  "label_summary": {
+    "MedMCQA": {
+      "n_questions": 60,
+      "class_counts": {
+        "C": 4,
+        "A": 41,
+        "B": 15
+      },
+      "total_severity_weight": 141
+    },
+    "PubMedQA": {
+      "n_questions": 60,
+      "class_counts": {
+        "A": 14,
+        "B": 45,
+        "C": 1
+      },
+      "total_severity_weight": 204
+    }
+  },
+  "results": {
+    "IRCoT 7B|MedMCQA": {
+      "system": "IRCoT 7B",
+      "benchmark": "MedMCQA",
+      "n": 60,
+      "errors": 30,
+      "weighted_error": 84,
+      "total_severity_weight": 141,
+      "H": 0.5957446808510638,
+      "H_rounded_3": 0.596,
+      "error_class_counts": {
+        "B": 9,
+        "A": 18,
+        "C": 3
+      },
+      "input_jsonl": "IRCoT/results/medmcqa/confidence_runs/ircot_qwen25_7b_medmcqa_60_ircot_qwen25_7b_evidence_conf_v1_medmcqa_20260613_075253.jsonl"
+    },
+    "IRCoT 32B|MedMCQA": {
+      "system": "IRCoT 32B",
+      "benchmark": "MedMCQA",
+      "n": 60,
+      "errors": 29,
+      "weighted_error": 71,
+      "total_severity_weight": 141,
+      "H": 0.5035460992907801,
+      "H_rounded_3": 0.504,
+      "error_class_counts": {
+        "A": 19,
+        "B": 8,
+        "C": 2
+      },
+      "input_jsonl": "IRCoT/results/medmcqa/confidence_runs/ircot_qwen25_32b_medmcqa_60_ircot_qwen25_32b_evidence_conf_v1_medmcqa_20260613_154532.jsonl"
+    },
+    "CRAG 7B|MedMCQA": {
+      "system": "CRAG 7B",
+      "benchmark": "MedMCQA",
+      "n": 60,
+      "errors": 38,
+      "weighted_error": 92,
+      "total_severity_weight": 141,
+      "H": 0.6524822695035462,
+      "H_rounded_3": 0.652,
+      "error_class_counts": {
+        "B": 9,
+        "A": 26,
+        "C": 3
+      },
+      "input_jsonl": "CRAG/results/medmcqa/confidence_runs/crag_qwen25_7b_medmcqa_60_crag_qwen25_7b_medmcqa_20260613_172254.jsonl"
+    },
+    "CRAG 32B|MedMCQA": {
+      "system": "CRAG 32B",
+      "benchmark": "MedMCQA",
+      "n": 60,
+      "errors": 35,
+      "weighted_error": 77,
+      "total_severity_weight": 141,
+      "H": 0.5460992907801419,
+      "H_rounded_3": 0.546,
+      "error_class_counts": {
+        "B": 8,
+        "A": 25,
+        "C": 2
+      },
+      "input_jsonl": "CRAG/results/medmcqa/confidence_runs/crag_qwen25_32b_medmcqa_60_crag_qwen25_32b_medmcqa_20260613_175948.jsonl"
+    },
+    "HippoRAG 7B|MedMCQA": {
+      "system": "HippoRAG 7B",
+      "benchmark": "MedMCQA",
+      "n": 60,
+      "errors": 31,
+      "weighted_error": 70,
+      "total_severity_weight": 141,
+      "H": 0.49645390070921985,
+      "H_rounded_3": 0.496,
+      "error_class_counts": {
+        "A": 22,
+        "B": 7,
+        "C": 2
+      },
+      "input_jsonl": "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615.jsonl"
+    },
+    "HippoRAG 32B|MedMCQA": {
+      "system": "HippoRAG 32B",
+      "benchmark": "MedMCQA",
+      "n": 60,
+      "errors": 29,
+      "weighted_error": 71,
+      "total_severity_weight": 141,
+      "H": 0.5035460992907801,
+      "H_rounded_3": 0.504,
+      "error_class_counts": {
+        "A": 19,
+        "B": 8,
+        "C": 2
+      },
+      "input_jsonl": "HippoRAG/results/medmcqa/hipporag_qwen25_32b_medmcqa_60_20260614_042849.jsonl"
+    },
+    "IRCoT 7B|PubMedQA": {
+      "system": "IRCoT 7B",
+      "benchmark": "PubMedQA",
+      "n": 60,
+      "errors": 33,
+      "weighted_error": 114,
+      "total_severity_weight": 204,
+      "H": 0.5588235294117647,
+      "H_rounded_3": 0.559,
+      "error_class_counts": {
+        "A": 6,
+        "B": 27
+      },
+      "input_jsonl": "IRCoT/results/pubmedqa/confidence_runs/ircot_qwen25_7b_pubmedqa_60_full1000_ircot_qwen25_7b_evidence_conf_v2_20260614_084634.jsonl"
+    },
+    "IRCoT 32B|PubMedQA": {
+      "system": "IRCoT 32B",
+      "benchmark": "PubMedQA",
+      "n": 60,
+      "errors": 28,
+      "weighted_error": 94,
+      "total_severity_weight": 204,
+      "H": 0.46078431372549017,
+      "H_rounded_3": 0.461,
+      "error_class_counts": {
+        "A": 6,
+        "B": 22
+      },
+      "input_jsonl": "IRCoT/results/pubmedqa/confidence_runs/ircot_qwen25_32b_pubmedqa_60_full1000_ircot_qwen25_32b_evidence_conf_v2_20260614_084634.jsonl"
+    },
+    "CRAG 7B|PubMedQA": {
+      "system": "CRAG 7B",
+      "benchmark": "PubMedQA",
+      "n": 60,
+      "errors": 34,
+      "weighted_error": 112,
+      "total_severity_weight": 204,
+      "H": 0.5490196078431373,
+      "H_rounded_3": 0.549,
+      "error_class_counts": {
+        "A": 8,
+        "B": 26
+      },
+      "input_jsonl": "CRAG/results/pubmedqa/confidence_runs/crag_qwen25_7b_pubmedqa_60_full1000_20260614_084944.jsonl"
+    },
+    "CRAG 32B|PubMedQA": {
+      "system": "CRAG 32B",
+      "benchmark": "PubMedQA",
+      "n": 60,
+      "errors": 36,
+      "weighted_error": 123,
+      "total_severity_weight": 204,
+      "H": 0.6029411764705882,
+      "H_rounded_3": 0.603,
+      "error_class_counts": {
+        "A": 9,
+        "B": 26,
+        "C": 1
+      },
+      "input_jsonl": "CRAG/results/pubmedqa/confidence_runs/crag_qwen25_32b_pubmedqa_60_full1000_20260614_084634.jsonl"
+    },
+    "HippoRAG 7B|PubMedQA": {
+      "system": "HippoRAG 7B",
+      "benchmark": "PubMedQA",
+      "n": 60,
+      "errors": 30,
+      "weighted_error": 99,
+      "total_severity_weight": 204,
+      "H": 0.4852941176470588,
+      "H_rounded_3": 0.485,
+      "error_class_counts": {
+        "A": 7,
+        "B": 23
+      },
+      "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_qwen25_7b_pubmedqa_60_full1000_20260614_161142.jsonl"
+    },
+    "HippoRAG 32B|PubMedQA": {
+      "system": "HippoRAG 32B",
+      "benchmark": "PubMedQA",
+      "n": 60,
+      "errors": 29,
+      "weighted_error": 98,
+      "total_severity_weight": 204,
+      "H": 0.4803921568627451,
+      "H_rounded_3": 0.48,
+      "error_class_counts": {
+        "A": 6,
+        "B": 23
+      },
+      "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_qwen25_32b_pubmedqa_60_full1000_resume_20260614_104710.jsonl"
+    }
+  }
+}

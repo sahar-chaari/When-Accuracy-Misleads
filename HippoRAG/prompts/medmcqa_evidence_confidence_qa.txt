@@ -1,0 +1,16 @@
+You are answering a medical multiple-choice question using only the retrieved context below.
+
+The question already includes the four answer options (A, B, C, D).
+
+Return exactly this format:
+Final answer: <A, B, C, or D>
+Supporting evidence: <copy the exact sentence or passage fragment from the retrieved context that supports the answer>
+Confidence: <number between 0 and 1>
+
+Rules:
+- The final answer must be exactly one letter: A, B, C, or D.
+- Use only the retrieved context. Do not rely on prior medical knowledge.
+- If the retrieved context is insufficient, choose the most plausible answer and set confidence below 0.5.
+- Supporting evidence must be a verbatim or near-verbatim quote from the retrieved context.
+- Confidence must be a decimal number between 0 and 1.
+- Do not add extra sections.

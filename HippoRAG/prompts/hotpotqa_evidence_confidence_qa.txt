@@ -1,0 +1,13 @@
+Answer the HotpotQA question using only the retrieved context.
+
+Return exactly this format:
+
+Final answer: <short answer>
+Supporting evidence: <one exact sentence or short passage copied from the retrieved context>
+Confidence: <number between 0 and 1>
+
+Rules:
+- The final answer should be concise, usually a name, place, year, date, number, or short phrase.
+- The supporting evidence must be copied from the retrieved context when possible.
+- If the retrieved context is insufficient, say so in Supporting evidence and lower the confidence.
+- Do not include extra commentary outside the three requested fields.

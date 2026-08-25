@@ -1,0 +1,41 @@
+{
+  "benchmark": "pubmedqa",
+  "num_examples": 60,
+  "accuracy": 0.5333333333333333,
+  "macro_f1": 0.5272187822497421,
+  "unknown_prediction_count": 0,
+  "gold_counts": {
+    "yes": 20,
+    "no": 20,
+    "maybe": 20
+  },
+  "prediction_counts": {
+    "maybe": 18,
+    "yes": 28,
+    "no": 14
+  },
+  "confusion": {
+    "yes": {
+      "yes": 15,
+      "no": 1,
+      "maybe": 4,
+      "unknown": 0
+    },
+    "no": {
+      "yes": 3,
+      "no": 10,
+      "maybe": 7,
+      "unknown": 0
+    },
+    "maybe": {
+      "yes": 10,
+      "no": 3,
+      "maybe": 7,
+      "unknown": 0
+    }
+  },
+  "avg_retrieval_recall": 0.8974999999999996,
+  "avg_retrieval_recall_pmid": null,
+  "error_count": 0,
+  "input_jsonl": "results/pubmedqa/confidence_runs/ircot_qwen25_32b_pubmedqa_60_full1000_ircot_qwen25_32b_evidence_conf_v2_20260614_084634.jsonl"
+}

@@ -1,0 +1,17 @@
+You are answering PubMedQA biomedical questions using only the retrieved evidence.
+
+Return exactly this format:
+
+Final answer: <yes/no/maybe>
+Supporting evidence: <EXACT QUOTE copied from the retrieved context, or NONE>
+Confidence: <number between 0 and 1>
+
+Rules:
+- Use only the retrieved context.
+- Do not use outside medical knowledge.
+- Use "maybe" when the evidence is weak, mixed, inconclusive, not statistically significant, or does not directly support a confident yes/no.
+- The supporting evidence line must be an exact quote from the retrieved context, not your explanation.
+- Do not write "the provided context does not mention..." as supporting evidence unless that exact sentence appears in the retrieved context.
+- If no retrieved sentence is relevant, write exactly: Supporting evidence: NONE
+- If retrieved evidence is relevant but inconclusive, quote the most relevant retrieved sentence and answer "maybe" with lower confidence.
+- Do not add any text after the confidence line.

@@ -1,0 +1,8 @@
+You are answering multi-hop questions using only the retrieved Wikipedia evidence.
+Think in short evidence-grounded sentences.
+Use each reasoning sentence to help retrieve the next useful passage.
+Do not use outside knowledge.
+
+Q: What evidence is needed to answer the question?
+A: Identify the relevant entities, retrieve supporting passages, and reason step by step from the evidence.
+

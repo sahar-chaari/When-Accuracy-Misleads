@@ -1,0 +1,51 @@
+{
+  "labels": ["yes", "no", "maybe", "unknown"],
+  "base_costs": {
+    "correct": 0.0,
+    "unknown": 0.5,
+    "abstain_when_confident_answer_reasonable": 1.0,
+    "confident_wrong": 4.0,
+    "wrong_on_maybe": 3.0
+  },
+  "criticality": {
+    "multiplier": 1.0,
+    "terms": [
+      "mortality",
+      "death",
+      "risk",
+      "treatment",
+      "drug",
+      "medication",
+      "diagnosis",
+      "cancer",
+      "pregnancy",
+      "surgery",
+      "cardiovascular",
+      "stroke",
+      "infection",
+      "adverse"
+    ]
+  },
+  "severity_classes": {
+    "A": "No injury or damage to health possible.",
+    "B": "Non-serious injury possible.",
+    "C": "Serious injury or death possible."
+  },
+  "severity_weight_schemes": {
+    "scheme_A_1_B_4_C_10": {
+      "A": 1.0,
+      "B": 4.0,
+      "C": 10.0
+    },
+    "scheme_A_1_B_5_C_10": {
+      "A": 1.0,
+      "B": 5.0,
+      "C": 10.0
+    },
+    "scheme_A_1_B_10_C_25": {
+      "A": 1.0,
+      "B": 10.0,
+      "C": 25.0
+    }
+  }
+}

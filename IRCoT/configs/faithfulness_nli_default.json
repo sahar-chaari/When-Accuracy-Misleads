@@ -1,0 +1,11 @@
+{
+  "judge_type": "nli",
+  "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "evidence_policy": "cited_only",
+  "max_passages": 8,
+  "max_words_per_passage": 180,
+  "entailment_threshold": 0.55,
+  "contradiction_threshold": 0.55,
+  "labels": ["supported", "unsupported", "contradicted", "abstained"],
+  "notes": "Default NLI scorer for Phase 1. Must be validated against hand-labeled cases before being reported as a final faithfulness metric."
+}

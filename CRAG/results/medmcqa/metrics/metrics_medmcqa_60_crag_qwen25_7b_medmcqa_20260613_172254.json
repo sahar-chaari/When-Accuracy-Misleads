@@ -1,0 +1,52 @@
+{
+  "benchmark": "medmcqa",
+  "num_examples": 60,
+  "accuracy": 0.36666666666666664,
+  "macro_f1": 0.371361872422993,
+  "unknown_prediction_count": 10,
+  "gold_counts": {
+    "A": 15,
+    "D": 15,
+    "C": 15,
+    "B": 15
+  },
+  "prediction_counts": {
+    "A": 17,
+    "B": 16,
+    "C": 13,
+    "unknown": 10,
+    "D": 4
+  },
+  "confusion": {
+    "A": {
+      "A": 8,
+      "B": 1,
+      "C": 2,
+      "D": 2,
+      "unknown": 2
+    },
+    "B": {
+      "A": 1,
+      "B": 7,
+      "C": 3,
+      "D": 0,
+      "unknown": 4
+    },
+    "C": {
+      "A": 5,
+      "B": 2,
+      "C": 6,
+      "D": 1,
+      "unknown": 1
+    },
+    "D": {
+      "A": 3,
+      "B": 6,
+      "C": 2,
+      "D": 1,
+      "unknown": 3
+    }
+  },
+  "error_count": 0,
+  "input_jsonl": "results/medmcqa/confidence_runs/crag_qwen25_7b_medmcqa_60_crag_qwen25_7b_medmcqa_20260613_172254.jsonl"
+}

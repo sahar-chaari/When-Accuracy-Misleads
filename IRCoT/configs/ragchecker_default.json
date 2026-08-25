@@ -1,0 +1,22 @@
+{
+  "purpose": "Default RAGChecker bridge settings for the clean IRCoT workspace.",
+  "official_repo": "https://github.com/amazon-science/RAGChecker",
+  "input_schema": {
+    "top_level": "results",
+    "required_fields": ["query_id", "query", "gt_answer", "response", "retrieved_context"],
+    "retrieved_context_item_fields": ["doc_id", "text"]
+  },
+  "export_modes": {
+    "standard": "Use all retrieved passages as RAGChecker retrieved_context.",
+    "cited": "Use only retrieved passages verified to contain the model's supporting evidence."
+  },
+  "default_response_mode": "structured",
+  "default_metrics": "all_metrics",
+  "faithfulness_threshold_for_disagreement_flags": 0.5,
+  "faithfulness_gap_delta_for_disagreement_flags": 0.25,
+  "notes": [
+    "RAGChecker is an independent evaluator, not a replacement for manual/NLI faithfulness validation.",
+    "For PubMedQA, prefer gold_long_answer plus gold_short_answer for gt_answer when available.",
+    "Cited mode should not include unverified supporting evidence unless explicitly requested."
+  ]
+}

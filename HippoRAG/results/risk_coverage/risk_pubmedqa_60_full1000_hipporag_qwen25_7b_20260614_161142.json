@@ -1,0 +1,411 @@
+{
+  "benchmark": "pubmedqa",
+  "input_jsonl": "HippoRAG/results/pubmedqa/hipporag_qwen25_7b_pubmedqa_60_full1000_20260614_161142.jsonl",
+  "missing_confidence_policy": "abstain",
+  "eval_split": null,
+  "selected_threshold": null,
+  "split_note": "No split used; thresholds swept over all rows.",
+  "confidence_available_count": 60,
+  "confidence_missing_count": 0,
+  "confidence_status_counts": {
+    "field_self_reported_confidence_parsed": 60
+  },
+  "min_confidence": 0.6,
+  "max_confidence": 0.95,
+  "avg_confidence": 0.7825000000000004,
+  "status": "computed",
+  "risk_coverage": [
+    {
+      "threshold": 0.0,
+      "total_count": 60,
+      "answered_count": 60,
+      "abstained_count": 0,
+      "missing_confidence_count": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.5,
+      "error_rate_answered": 0.5,
+      "macro_f1_answered": 0.4625220458553792,
+      "prediction_counts_answered": {
+        "maybe": 34,
+        "yes": 22,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 7,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 13,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 14,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.1,
+      "total_count": 60,
+      "answered_count": 60,
+      "abstained_count": 0,
+      "missing_confidence_count": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.5,
+      "error_rate_answered": 0.5,
+      "macro_f1_answered": 0.4625220458553792,
+      "prediction_counts_answered": {
+        "maybe": 34,
+        "yes": 22,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 7,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 13,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 14,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.2,
+      "total_count": 60,
+      "answered_count": 60,
+      "abstained_count": 0,
+      "missing_confidence_count": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.5,
+      "error_rate_answered": 0.5,
+      "macro_f1_answered": 0.4625220458553792,
+      "prediction_counts_answered": {
+        "maybe": 34,
+        "yes": 22,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 7,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 13,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 14,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.3,
+      "total_count": 60,
+      "answered_count": 60,
+      "abstained_count": 0,
+      "missing_confidence_count": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.5,
+      "error_rate_answered": 0.5,
+      "macro_f1_answered": 0.4625220458553792,
+      "prediction_counts_answered": {
+        "maybe": 34,
+        "yes": 22,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 7,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 13,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 14,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.4,
+      "total_count": 60,
+      "answered_count": 60,
+      "abstained_count": 0,
+      "missing_confidence_count": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.5,
+      "error_rate_answered": 0.5,
+      "macro_f1_answered": 0.4625220458553792,
+      "prediction_counts_answered": {
+        "maybe": 34,
+        "yes": 22,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 7,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 13,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 14,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.5,
+      "total_count": 60,
+      "answered_count": 60,
+      "abstained_count": 0,
+      "missing_confidence_count": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.5,
+      "error_rate_answered": 0.5,
+      "macro_f1_answered": 0.4625220458553792,
+      "prediction_counts_answered": {
+        "maybe": 34,
+        "yes": 22,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 7,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 13,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 14,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.6,
+      "total_count": 60,
+      "answered_count": 60,
+      "abstained_count": 0,
+      "missing_confidence_count": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.5,
+      "error_rate_answered": 0.5,
+      "macro_f1_answered": 0.4625220458553792,
+      "prediction_counts_answered": {
+        "maybe": 34,
+        "yes": 22,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 7,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 13,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 14,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.7,
+      "total_count": 60,
+      "answered_count": 53,
+      "abstained_count": 7,
+      "missing_confidence_count": 0,
+      "coverage": 0.8833333333333333,
+      "accuracy_answered": 0.5471698113207547,
+      "error_rate_answered": 0.4528301886792453,
+      "macro_f1_answered": 0.5050510688173243,
+      "prediction_counts_answered": {
+        "maybe": 27,
+        "yes": 22,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 6,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 8,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 13,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.8,
+      "total_count": 60,
+      "answered_count": 31,
+      "abstained_count": 29,
+      "missing_confidence_count": 0,
+      "coverage": 0.5166666666666667,
+      "accuracy_answered": 0.5806451612903226,
+      "error_rate_answered": 0.4193548387096774,
+      "macro_f1_answered": 0.49715099715099714,
+      "prediction_counts_answered": {
+        "yes": 22,
+        "maybe": 5,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 13,
+          "no": 0,
+          "maybe": 1,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 2,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 5,
+          "no": 1,
+          "maybe": 2,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.9,
+      "total_count": 60,
+      "answered_count": 22,
+      "abstained_count": 38,
+      "missing_confidence_count": 0,
+      "coverage": 0.36666666666666664,
+      "accuracy_answered": 0.5909090909090909,
+      "error_rate_answered": 0.40909090909090906,
+      "macro_f1_answered": 0.41991341991341996,
+      "prediction_counts_answered": {
+        "yes": 18,
+        "no": 4
+      },
+      "confusion_answered": {
+        "yes": {
+          "yes": 10,
+          "no": 0,
+          "maybe": 0,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 4,
+          "no": 3,
+          "maybe": 0,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 4,
+          "no": 1,
+          "maybe": 0,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 1.0,
+      "total_count": 60,
+      "answered_count": 0,
+      "abstained_count": 60,
+      "missing_confidence_count": 0,
+      "coverage": 0.0,
+      "accuracy_answered": null,
+      "error_rate_answered": null,
+      "macro_f1_answered": null,
+      "prediction_counts_answered": {},
+      "confusion_answered": {
+        "yes": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0,
+          "unknown": 0
+        },
+        "no": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0,
+          "unknown": 0
+        },
+        "maybe": {
+          "yes": 0,
+          "no": 0,
+          "maybe": 0,
+          "unknown": 0
+        }
+      }
+    }
+  ],
+  "note": "Rows without explicit confidence are marked missing; confidence is never guessed."
+}

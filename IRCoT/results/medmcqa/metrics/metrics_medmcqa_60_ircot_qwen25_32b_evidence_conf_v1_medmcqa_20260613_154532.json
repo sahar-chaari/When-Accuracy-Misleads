@@ -1,0 +1,51 @@
+{
+  "benchmark": "medmcqa",
+  "num_examples": 60,
+  "accuracy": 0.5166666666666667,
+  "macro_f1": 0.5112903225806451,
+  "unknown_prediction_count": 0,
+  "gold_counts": {
+    "A": 15,
+    "D": 15,
+    "C": 15,
+    "B": 15
+  },
+  "prediction_counts": {
+    "A": 17,
+    "B": 17,
+    "C": 16,
+    "D": 10
+  },
+  "confusion": {
+    "A": {
+      "A": 9,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "unknown": 0
+    },
+    "B": {
+      "A": 5,
+      "B": 7,
+      "C": 2,
+      "D": 1,
+      "unknown": 0
+    },
+    "C": {
+      "A": 2,
+      "B": 2,
+      "C": 10,
+      "D": 1,
+      "unknown": 0
+    },
+    "D": {
+      "A": 1,
+      "B": 7,
+      "C": 2,
+      "D": 5,
+      "unknown": 0
+    }
+  },
+  "error_count": 0,
+  "input_jsonl": "results/medmcqa/confidence_runs/ircot_qwen25_32b_medmcqa_60_ircot_qwen25_32b_evidence_conf_v1_medmcqa_20260613_154532.jsonl"
+}

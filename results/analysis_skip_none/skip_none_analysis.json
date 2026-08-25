@@ -1,0 +1,1037 @@
+{
+  "method": "threshold-sweep [0.0,0.1,...,1.0], confidence None -> abstain, zero-answer thresholds skipped",
+  "auarc": {
+    "IRCoT 7B|MedMCQA": 0.452472,
+    "IRCoT 32B|MedMCQA": 0.595158,
+    "CRAG 7B|MedMCQA": 0.51326,
+    "CRAG 32B|MedMCQA": 0.445165,
+    "HippoRAG 7B|MedMCQA": 0.512523,
+    "HippoRAG 32B|MedMCQA": 0.697379,
+    "IRCoT 7B|PubMedQA": 0.607405,
+    "IRCoT 32B|PubMedQA": 0.471208,
+    "CRAG 7B|PubMedQA": 0.43078,
+    "CRAG 32B|PubMedQA": 0.505146,
+    "HippoRAG 7B|PubMedQA": 0.355717,
+    "HippoRAG 32B|PubMedQA": 0.448587
+  },
+  "ranks": {
+    "accuracy": {
+      "IRCoT 7B|MedMCQA": 3,
+      "IRCoT 32B|MedMCQA": 1,
+      "CRAG 7B|MedMCQA": 6,
+      "CRAG 32B|MedMCQA": 5,
+      "HippoRAG 7B|MedMCQA": 4,
+      "HippoRAG 32B|MedMCQA": 1,
+      "IRCoT 7B|PubMedQA": 4,
+      "IRCoT 32B|PubMedQA": 1,
+      "CRAG 7B|PubMedQA": 5,
+      "CRAG 32B|PubMedQA": 6,
+      "HippoRAG 7B|PubMedQA": 3,
+      "HippoRAG 32B|PubMedQA": 2
+    },
+    "auarc": {
+      "IRCoT 7B|MedMCQA": 5,
+      "IRCoT 32B|MedMCQA": 2,
+      "CRAG 7B|MedMCQA": 3,
+      "CRAG 32B|MedMCQA": 6,
+      "HippoRAG 7B|MedMCQA": 4,
+      "HippoRAG 32B|MedMCQA": 1,
+      "IRCoT 7B|PubMedQA": 1,
+      "IRCoT 32B|PubMedQA": 3,
+      "CRAG 7B|PubMedQA": 5,
+      "CRAG 32B|PubMedQA": 2,
+      "HippoRAG 7B|PubMedQA": 6,
+      "HippoRAG 32B|PubMedQA": 4
+    }
+  },
+  "curves": {
+    "IRCoT 7B|MedMCQA": {
+      "auarc": 0.4524722122845,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 0.983333,
+          "accuracy_answered": 0.508475,
+          "answered_count": 59
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 0.95,
+          "accuracy_answered": 0.526316,
+          "answered_count": 57
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.95,
+          "accuracy_answered": 0.526316,
+          "answered_count": 57
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 0.95,
+          "accuracy_answered": 0.526316,
+          "answered_count": 57
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.933333,
+          "accuracy_answered": 0.517857,
+          "answered_count": 56
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.916667,
+          "accuracy_answered": 0.509091,
+          "answered_count": 55
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.9,
+          "accuracy_answered": 0.518519,
+          "answered_count": 54
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.866667,
+          "accuracy_answered": 0.519231,
+          "answered_count": 52
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.733333,
+          "accuracy_answered": 0.545455,
+          "answered_count": 44
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.15,
+          "accuracy_answered": 0.555556,
+          "answered_count": 9
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.15,
+          "accuracy_answered": 0.555556,
+          "answered_count": 9
+        }
+      ]
+    },
+    "IRCoT 32B|MedMCQA": {
+      "auarc": 0.5951581082399999,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 0.983333,
+          "accuracy_answered": 0.525424,
+          "answered_count": 59
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.433333,
+          "accuracy_answered": 0.615385,
+          "answered_count": 26
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.383333,
+          "accuracy_answered": 0.652174,
+          "answered_count": 23
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.383333,
+          "accuracy_answered": 0.652174,
+          "answered_count": 23
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.3,
+          "accuracy_answered": 0.666667,
+          "answered_count": 18
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.116667,
+          "accuracy_answered": 0.857143,
+          "answered_count": 7
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.066667,
+          "accuracy_answered": 1.0,
+          "answered_count": 4
+        }
+      ]
+    },
+    "CRAG 7B|MedMCQA": {
+      "auarc": 0.5132598097505,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.366667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 0.816667,
+          "accuracy_answered": 0.44898,
+          "answered_count": 49
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.816667,
+          "accuracy_answered": 0.44898,
+          "answered_count": 49
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 0.816667,
+          "accuracy_answered": 0.44898,
+          "answered_count": 49
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.816667,
+          "accuracy_answered": 0.44898,
+          "answered_count": 49
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.816667,
+          "accuracy_answered": 0.44898,
+          "answered_count": 49
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.816667,
+          "accuracy_answered": 0.44898,
+          "answered_count": 49
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.816667,
+          "accuracy_answered": 0.44898,
+          "answered_count": 49
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.816667,
+          "accuracy_answered": 0.44898,
+          "answered_count": 49
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.233333,
+          "accuracy_answered": 0.642857,
+          "answered_count": 14
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.05,
+          "accuracy_answered": 0.666667,
+          "answered_count": 3
+        }
+      ]
+    },
+    "CRAG 32B|MedMCQA": {
+      "auarc": 0.44516503077,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.416667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 0.75,
+          "accuracy_answered": 0.488889,
+          "answered_count": 45
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.75,
+          "accuracy_answered": 0.488889,
+          "answered_count": 45
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 0.65,
+          "accuracy_answered": 0.461538,
+          "answered_count": 39
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.633333,
+          "accuracy_answered": 0.447368,
+          "answered_count": 38
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.633333,
+          "accuracy_answered": 0.447368,
+          "answered_count": 38
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.633333,
+          "accuracy_answered": 0.447368,
+          "answered_count": 38
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.583333,
+          "accuracy_answered": 0.457143,
+          "answered_count": 35
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.416667,
+          "accuracy_answered": 0.36,
+          "answered_count": 25
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.1,
+          "accuracy_answered": 0.5,
+          "answered_count": 6
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.033333,
+          "accuracy_answered": 1.0,
+          "answered_count": 2
+        }
+      ]
+    },
+    "HippoRAG 7B|MedMCQA": {
+      "auarc": 0.512523389249,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 0.983333,
+          "accuracy_answered": 0.474576,
+          "answered_count": 59
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 0.916667,
+          "accuracy_answered": 0.509091,
+          "answered_count": 55
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.916667,
+          "accuracy_answered": 0.509091,
+          "answered_count": 55
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 0.916667,
+          "accuracy_answered": 0.509091,
+          "answered_count": 55
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.8,
+          "accuracy_answered": 0.520833,
+          "answered_count": 48
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.733333,
+          "accuracy_answered": 0.568182,
+          "answered_count": 44
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.716667,
+          "accuracy_answered": 0.581395,
+          "answered_count": 43
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.716667,
+          "accuracy_answered": 0.581395,
+          "answered_count": 43
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.65,
+          "accuracy_answered": 0.589744,
+          "answered_count": 39
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.15,
+          "accuracy_answered": 0.666667,
+          "answered_count": 9
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.116667,
+          "accuracy_answered": 0.571429,
+          "answered_count": 7
+        }
+      ]
+    },
+    "HippoRAG 32B|MedMCQA": {
+      "auarc": 0.6973788435185,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 0.9,
+          "accuracy_answered": 0.555556,
+          "answered_count": 54
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.416667,
+          "accuracy_answered": 0.72,
+          "answered_count": 25
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.35,
+          "accuracy_answered": 0.761905,
+          "answered_count": 21
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.35,
+          "accuracy_answered": 0.761905,
+          "answered_count": 21
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.233333,
+          "accuracy_answered": 0.857143,
+          "answered_count": 14
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.116667,
+          "accuracy_answered": 1.0,
+          "answered_count": 7
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.066667,
+          "accuracy_answered": 1.0,
+          "answered_count": 4
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.033333,
+          "accuracy_answered": 1.0,
+          "answered_count": 2
+        }
+      ]
+    },
+    "IRCoT 7B|PubMedQA": {
+      "auarc": 0.6074053278955001,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.45,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "accuracy_answered": 0.45,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "accuracy_answered": 0.45,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 1.0,
+          "accuracy_answered": 0.45,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 1.0,
+          "accuracy_answered": 0.45,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 1.0,
+          "accuracy_answered": 0.45,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.983333,
+          "accuracy_answered": 0.457627,
+          "answered_count": 59
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.716667,
+          "accuracy_answered": 0.488372,
+          "answered_count": 43
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.333333,
+          "accuracy_answered": 0.65,
+          "answered_count": 20
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.266667,
+          "accuracy_answered": 0.6875,
+          "answered_count": 16
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.016667,
+          "accuracy_answered": 1.0,
+          "answered_count": 1
+        }
+      ]
+    },
+    "IRCoT 32B|PubMedQA": {
+      "auarc": 0.4712079127855,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.533333,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "accuracy_answered": 0.533333,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "accuracy_answered": 0.533333,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 1.0,
+          "accuracy_answered": 0.533333,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.9,
+          "accuracy_answered": 0.537037,
+          "answered_count": 54
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.9,
+          "accuracy_answered": 0.537037,
+          "answered_count": 54
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.883333,
+          "accuracy_answered": 0.54717,
+          "answered_count": 53
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.733333,
+          "accuracy_answered": 0.590909,
+          "answered_count": 44
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.616667,
+          "accuracy_answered": 0.675676,
+          "answered_count": 37
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.5,
+          "accuracy_answered": 0.7,
+          "answered_count": 30
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.016667,
+          "accuracy_answered": 0.0,
+          "answered_count": 1
+        }
+      ]
+    },
+    "CRAG 7B|PubMedQA": {
+      "auarc": 0.4307804685185,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.433333,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "accuracy_answered": 0.433333,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "accuracy_answered": 0.433333,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 1.0,
+          "accuracy_answered": 0.433333,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.983333,
+          "accuracy_answered": 0.423729,
+          "answered_count": 59
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.983333,
+          "accuracy_answered": 0.423729,
+          "answered_count": 59
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.983333,
+          "accuracy_answered": 0.423729,
+          "answered_count": 59
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.9,
+          "accuracy_answered": 0.425926,
+          "answered_count": 54
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.433333,
+          "accuracy_answered": 0.538462,
+          "answered_count": 26
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.3,
+          "accuracy_answered": 0.611111,
+          "answered_count": 18
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.016667,
+          "accuracy_answered": 0.0,
+          "answered_count": 1
+        }
+      ]
+    },
+    "CRAG 32B|PubMedQA": {
+      "auarc": 0.5051459845490001,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.4,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "accuracy_answered": 0.4,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "accuracy_answered": 0.4,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 1.0,
+          "accuracy_answered": 0.4,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.966667,
+          "accuracy_answered": 0.396552,
+          "answered_count": 58
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.966667,
+          "accuracy_answered": 0.396552,
+          "answered_count": 58
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.9,
+          "accuracy_answered": 0.388889,
+          "answered_count": 54
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.866667,
+          "accuracy_answered": 0.403846,
+          "answered_count": 52
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.483333,
+          "accuracy_answered": 0.551724,
+          "answered_count": 29
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.383333,
+          "accuracy_answered": 0.608696,
+          "answered_count": 23
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.083333,
+          "accuracy_answered": 0.8,
+          "answered_count": 5
+        }
+      ]
+    },
+    "HippoRAG 7B|PubMedQA": {
+      "auarc": 0.35571734859,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.5,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "accuracy_answered": 0.5,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "accuracy_answered": 0.5,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 1.0,
+          "accuracy_answered": 0.5,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 1.0,
+          "accuracy_answered": 0.5,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 1.0,
+          "accuracy_answered": 0.5,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 1.0,
+          "accuracy_answered": 0.5,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.883333,
+          "accuracy_answered": 0.54717,
+          "answered_count": 53
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.516667,
+          "accuracy_answered": 0.580645,
+          "answered_count": 31
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.366667,
+          "accuracy_answered": 0.590909,
+          "answered_count": 22
+        }
+      ]
+    },
+    "HippoRAG 32B|PubMedQA": {
+      "auarc": 0.44858711075050006,
+      "points": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "accuracy_answered": 0.516667,
+          "answered_count": 60
+        },
+        {
+          "threshold": 0.3,
+          "coverage": 0.966667,
+          "accuracy_answered": 0.517241,
+          "answered_count": 58
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.9,
+          "accuracy_answered": 0.518519,
+          "answered_count": 54
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.9,
+          "accuracy_answered": 0.518519,
+          "answered_count": 54
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.866667,
+          "accuracy_answered": 0.519231,
+          "answered_count": 52
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.633333,
+          "accuracy_answered": 0.552632,
+          "answered_count": 38
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.55,
+          "accuracy_answered": 0.606061,
+          "answered_count": 33
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.466667,
+          "accuracy_answered": 0.678571,
+          "answered_count": 28
+        },
+        {
+          "threshold": 1.0,
+          "coverage": 0.016667,
+          "accuracy_answered": 0.0,
+          "answered_count": 1
+        }
+      ]
+    }
+  },
+  "score_table_for_spearman": [
+    {
+      "system": "IRCoT 7B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 50.4,
+      "auarc": 0.4524722122845,
+      "faithful_sup_pct": 5.0,
+      "neg_harm_h": -0.596
+    },
+    {
+      "system": "IRCoT 32B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 51.1,
+      "auarc": 0.5951581082399999,
+      "faithful_sup_pct": 3.3,
+      "neg_harm_h": -0.504
+    },
+    {
+      "system": "CRAG 7B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 37.1,
+      "auarc": 0.5132598097505,
+      "faithful_sup_pct": 1.7,
+      "neg_harm_h": -0.652
+    },
+    {
+      "system": "CRAG 32B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 44.8,
+      "auarc": 0.44516503077,
+      "faithful_sup_pct": 8.3,
+      "neg_harm_h": -0.546
+    },
+    {
+      "system": "HippoRAG 7B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 48.2,
+      "auarc": 0.512523389249,
+      "faithful_sup_pct": 3.3,
+      "neg_harm_h": -0.496
+    },
+    {
+      "system": "HippoRAG 32B",
+      "benchmark": "MedMCQA",
+      "accuracy_f1": 50.8,
+      "auarc": 0.6973788435185,
+      "faithful_sup_pct": 5.0,
+      "neg_harm_h": -0.504
+    },
+    {
+      "system": "IRCoT 7B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 42.4,
+      "auarc": 0.6074053278955001,
+      "faithful_sup_pct": 11.7,
+      "neg_harm_h": -0.559
+    },
+    {
+      "system": "IRCoT 32B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 52.7,
+      "auarc": 0.4712079127855,
+      "faithful_sup_pct": 18.3,
+      "neg_harm_h": -0.461
+    },
+    {
+      "system": "CRAG 7B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 43.1,
+      "auarc": 0.4307804685185,
+      "faithful_sup_pct": 6.7,
+      "neg_harm_h": -0.549
+    },
+    {
+      "system": "CRAG 32B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 40.2,
+      "auarc": 0.5051459845490001,
+      "faithful_sup_pct": 11.7,
+      "neg_harm_h": -0.603
+    },
+    {
+      "system": "HippoRAG 7B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 46.3,
+      "auarc": 0.35571734859,
+      "faithful_sup_pct": 18.3,
+      "neg_harm_h": -0.485
+    },
+    {
+      "system": "HippoRAG 32B",
+      "benchmark": "PubMedQA",
+      "accuracy_f1": 52.3,
+      "auarc": 0.44858711075050006,
+      "faithful_sup_pct": 21.7,
+      "neg_harm_h": -0.48
+    }
+  ],
+  "spearman_correlations": [
+    {
+      "pair": "F1 vs AUARC",
+      "key": "f1-auarc",
+      "rho": -0.014,
+      "p_value": 0.9656,
+      "significant_05": false
+    },
+    {
+      "pair": "F1 vs Sup%",
+      "key": "f1-faithful",
+      "rho": 0.25,
+      "p_value": 0.4332,
+      "significant_05": false
+    },
+    {
+      "pair": "F1 vs -H",
+      "key": "f1-harm",
+      "rho": 0.8021,
+      "p_value": 0.0017,
+      "significant_05": true
+    },
+    {
+      "pair": "AUARC vs Sup%",
+      "key": "auarc-faithful",
+      "rho": -0.4859,
+      "p_value": 0.1092,
+      "significant_05": false
+    },
+    {
+      "pair": "AUARC vs -H",
+      "key": "auarc-harm",
+      "rho": -0.2382,
+      "p_value": 0.456,
+      "significant_05": false
+    },
+    {
+      "pair": "Sup% vs -H",
+      "key": "faithful-harm",
+      "rho": 0.4833,
+      "p_value": 0.1115,
+      "significant_05": false
+    }
+  ],
+  "changed_auarc_table_cells": [],
+  "fragments": {
+    "auarc_table_rows": "\\multirow{2}{*}{IRCoT}     & 7B  & 0.452 & \\textbf{0.607} \\\\\n                            & 32B & 0.595 & 0.471 \\\\\n\\multirow{2}{*}{CRAG}      & 7B  & 0.513 & 0.431 \\\\\n                            & 32B & 0.445 & 0.505 \\\\\n\\multirow{2}{*}{HippoRAG~2}& 7B  & 0.513 & 0.356 \\\\\n                            & 32B & \\textbf{0.697} & 0.449 \\\\",
+    "ranking_table_rows": "\\multirow{2}{*}{IRCoT} & 7B & 3 & 5 & 4 & \\textbf{1} \\\\\n                         & 32B & \\textbf{1} & 2 & \\textbf{1} & 3 \\\\\n\\multirow{2}{*}{CRAG} & 7B & 6 & 3 & 5 & 5 \\\\\n                         & 32B & 5 & 6 & 6 & 2 \\\\\n\\multirow{2}{*}{HippoRAG~2} & 7B & 4 & 4 & 3 & 6 \\\\\n                         & 32B & \\textbf{1} & \\textbf{1} & 2 & 4 \\\\",
+    "spearman_table_rows": "F1 vs.\\ AUARC      & $-0.01$ & $0.966$\\;\\textrm{ns} \\\\\nF1 vs.\\ Sup\\%      & $+0.25$ & $0.433$\\;\\textrm{ns} \\\\\nF1 vs.\\ $-H$       & $+0.80$ & $0.002$\\;* \\\\\nAUARC vs.\\ Sup\\%   & $-0.49$ & $0.109$\\;\\textrm{ns} \\\\\nAUARC vs.\\ $-H$    & $-0.24$ & $0.456$\\;\\textrm{ns} \\\\\nSup\\% vs.\\ $-H$    & $+0.48$ & $0.112$\\;\\textrm{ns} \\\\"
+  }
+}

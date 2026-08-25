@@ -1,0 +1,41 @@
+{
+  "benchmark": "pubmedqa",
+  "num_examples": 60,
+  "accuracy": 0.43333333333333335,
+  "macro_f1": 0.43124208852483026,
+  "unknown_prediction_count": 0,
+  "gold_counts": {
+    "yes": 20,
+    "no": 20,
+    "maybe": 20
+  },
+  "prediction_counts": {
+    "maybe": 18,
+    "yes": 19,
+    "no": 23
+  },
+  "confusion": {
+    "yes": {
+      "yes": 10,
+      "no": 4,
+      "maybe": 6,
+      "unknown": 0
+    },
+    "no": {
+      "yes": 4,
+      "no": 10,
+      "maybe": 6,
+      "unknown": 0
+    },
+    "maybe": {
+      "yes": 5,
+      "no": 9,
+      "maybe": 6,
+      "unknown": 0
+    }
+  },
+  "avg_retrieval_recall": 0.7399999999999999,
+  "avg_retrieval_recall_pmid": null,
+  "error_count": 0,
+  "input_jsonl": "results/pubmedqa/confidence_runs/crag_qwen25_7b_pubmedqa_60_full1000_20260614_084944.jsonl"
+}

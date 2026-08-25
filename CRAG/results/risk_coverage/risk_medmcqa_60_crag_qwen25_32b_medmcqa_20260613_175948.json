@@ -1,0 +1,535 @@
+{
+  "benchmark": "medmcqa",
+  "input_jsonl": "results/medmcqa/confidence_runs/crag_qwen25_32b_medmcqa_60_crag_qwen25_32b_medmcqa_20260613_175948.jsonl",
+  "missing_confidence_policy": "abstain",
+  "eval_split": "eval",
+  "selected_threshold": 1.0,
+  "split_note": "Threshold 1.0 selected on 30 tune rows; metrics reported on 30 eval rows only.",
+  "confidence_available_count": 30,
+  "confidence_missing_count": 0,
+  "confidence_status_counts": {
+    "field_confidence_parsed": 30
+  },
+  "min_confidence": 0.0,
+  "max_confidence": 1.0,
+  "avg_confidence": 0.525,
+  "status": "computed",
+  "risk_coverage": [
+    {
+      "threshold": 0.0,
+      "total_count": 30,
+      "answered_count": 30,
+      "abstained_count": 0,
+      "missing_confidence_count": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.36666666666666664,
+      "error_rate_answered": 0.6333333333333333,
+      "macro_f1_answered": 0.38708133971291864,
+      "prediction_counts_answered": {
+        "A": 7,
+        "D": 5,
+        "C": 5,
+        "B": 9,
+        "unknown": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 3
+        },
+        "B": {
+          "A": 4,
+          "B": 4,
+          "C": 1,
+          "D": 0,
+          "unknown": 1
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 2,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 4,
+          "C": 1,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.1,
+      "total_count": 30,
+      "answered_count": 22,
+      "abstained_count": 8,
+      "missing_confidence_count": 0,
+      "coverage": 0.7333333333333333,
+      "accuracy_answered": 0.45454545454545453,
+      "error_rate_answered": 0.5454545454545454,
+      "macro_f1_answered": 0.45714285714285713,
+      "prediction_counts_answered": {
+        "A": 5,
+        "C": 5,
+        "B": 8,
+        "D": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 0
+        },
+        "B": {
+          "A": 2,
+          "B": 3,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 1,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 4,
+          "C": 1,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.2,
+      "total_count": 30,
+      "answered_count": 22,
+      "abstained_count": 8,
+      "missing_confidence_count": 0,
+      "coverage": 0.7333333333333333,
+      "accuracy_answered": 0.45454545454545453,
+      "error_rate_answered": 0.5454545454545454,
+      "macro_f1_answered": 0.45714285714285713,
+      "prediction_counts_answered": {
+        "A": 5,
+        "C": 5,
+        "B": 8,
+        "D": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 0
+        },
+        "B": {
+          "A": 2,
+          "B": 3,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 1,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 4,
+          "C": 1,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.3,
+      "total_count": 30,
+      "answered_count": 19,
+      "abstained_count": 11,
+      "missing_confidence_count": 0,
+      "coverage": 0.6333333333333333,
+      "accuracy_answered": 0.47368421052631576,
+      "error_rate_answered": 0.5263157894736843,
+      "macro_f1_answered": 0.4700757575757576,
+      "prediction_counts_answered": {
+        "A": 5,
+        "C": 4,
+        "B": 6,
+        "D": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 0
+        },
+        "B": {
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 1,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 3,
+          "C": 0,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.4,
+      "total_count": 30,
+      "answered_count": 19,
+      "abstained_count": 11,
+      "missing_confidence_count": 0,
+      "coverage": 0.6333333333333333,
+      "accuracy_answered": 0.47368421052631576,
+      "error_rate_answered": 0.5263157894736843,
+      "macro_f1_answered": 0.4700757575757576,
+      "prediction_counts_answered": {
+        "A": 5,
+        "C": 4,
+        "B": 6,
+        "D": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 0
+        },
+        "B": {
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 1,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 3,
+          "C": 0,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.5,
+      "total_count": 30,
+      "answered_count": 19,
+      "abstained_count": 11,
+      "missing_confidence_count": 0,
+      "coverage": 0.6333333333333333,
+      "accuracy_answered": 0.47368421052631576,
+      "error_rate_answered": 0.5263157894736843,
+      "macro_f1_answered": 0.4700757575757576,
+      "prediction_counts_answered": {
+        "A": 5,
+        "C": 4,
+        "B": 6,
+        "D": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 0
+        },
+        "B": {
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 1,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 3,
+          "C": 0,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.6,
+      "total_count": 30,
+      "answered_count": 19,
+      "abstained_count": 11,
+      "missing_confidence_count": 0,
+      "coverage": 0.6333333333333333,
+      "accuracy_answered": 0.47368421052631576,
+      "error_rate_answered": 0.5263157894736843,
+      "macro_f1_answered": 0.4700757575757576,
+      "prediction_counts_answered": {
+        "A": 5,
+        "C": 4,
+        "B": 6,
+        "D": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 0
+        },
+        "B": {
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 1,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 3,
+          "C": 0,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.7,
+      "total_count": 30,
+      "answered_count": 19,
+      "abstained_count": 11,
+      "missing_confidence_count": 0,
+      "coverage": 0.6333333333333333,
+      "accuracy_answered": 0.47368421052631576,
+      "error_rate_answered": 0.5263157894736843,
+      "macro_f1_answered": 0.4700757575757576,
+      "prediction_counts_answered": {
+        "A": 5,
+        "C": 4,
+        "B": 6,
+        "D": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 0
+        },
+        "B": {
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 1,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 3,
+          "C": 0,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.8,
+      "total_count": 30,
+      "answered_count": 13,
+      "abstained_count": 17,
+      "missing_confidence_count": 0,
+      "coverage": 0.43333333333333335,
+      "accuracy_answered": 0.3076923076923077,
+      "error_rate_answered": 0.6923076923076923,
+      "macro_f1_answered": 0.29642857142857143,
+      "prediction_counts_answered": {
+        "A": 4,
+        "B": 3,
+        "C": 2,
+        "D": 4
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "D": 2,
+          "unknown": 0
+        },
+        "B": {
+          "A": 2,
+          "B": 0,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 2,
+          "C": 0,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 0.9,
+      "total_count": 30,
+      "answered_count": 4,
+      "abstained_count": 26,
+      "missing_confidence_count": 0,
+      "coverage": 0.13333333333333333,
+      "accuracy_answered": 0.5,
+      "error_rate_answered": 0.5,
+      "macro_f1_answered": 0.41666666666666663,
+      "prediction_counts_answered": {
+        "A": 1,
+        "C": 1,
+        "B": 1,
+        "D": 1
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "unknown": 0
+        },
+        "B": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "D": 1,
+          "unknown": 0
+        }
+      }
+    },
+    {
+      "threshold": 1.0,
+      "total_count": 30,
+      "answered_count": 1,
+      "abstained_count": 29,
+      "missing_confidence_count": 0,
+      "coverage": 0.03333333333333333,
+      "accuracy_answered": 1.0,
+      "error_rate_answered": 0.0,
+      "macro_f1_answered": 0.25,
+      "prediction_counts_answered": {
+        "A": 1
+      },
+      "confusion_answered": {
+        "A": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "unknown": 0
+        },
+        "B": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "unknown": 0
+        },
+        "C": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "unknown": 0
+        },
+        "D": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "unknown": 0
+        }
+      }
+    }
+  ],
+  "note": "Rows without explicit confidence are marked missing; confidence is never guessed."
+}

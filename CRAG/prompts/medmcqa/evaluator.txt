@@ -1,0 +1,14 @@
+You are a medical relevance assessor. Evaluate whether the passage below helps answer the multiple-choice question.
+
+Question: {question}
+
+Passage title: {title}
+Passage text: {text}
+
+Does this passage help identify the correct answer?
+Reply with exactly one word:
+- Correct   (passage directly helps identify the right answer)
+- Incorrect (passage is off-topic or irrelevant)
+- Ambiguous (passage is related but not definitively helpful)
+
+Relevance:

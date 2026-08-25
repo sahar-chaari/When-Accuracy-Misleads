@@ -1,0 +1,302 @@
+{
+  "ircot_7b_medmcqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 3,
+      "unsupported": 36,
+      "no_evidence_admitted": 14,
+      "contradicted": 7,
+      "abstained": 0
+    },
+    "supported_rate": 0.05,
+    "unsupported_rate": 0.6,
+    "no_evidence_admitted_rate": 0.2333,
+    "contradicted_rate": 0.1167,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.0836,
+    "avg_max_contradiction": 0.2151,
+    "presence_method_counts": {
+      "substring": 17,
+      "fragment": 0,
+      "fuzzy": 22,
+      "none": 21
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "ircot_7b_pubmedqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 7,
+      "unsupported": 40,
+      "no_evidence_admitted": 0,
+      "contradicted": 13,
+      "abstained": 0
+    },
+    "supported_rate": 0.1167,
+    "unsupported_rate": 0.6667,
+    "no_evidence_admitted_rate": 0.0,
+    "contradicted_rate": 0.2167,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.1293,
+    "avg_max_contradiction": 0.2205,
+    "presence_method_counts": {
+      "substring": 1,
+      "fragment": 0,
+      "fuzzy": 59,
+      "none": 0
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "ircot_32b_medmcqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 2,
+      "unsupported": 25,
+      "no_evidence_admitted": 28,
+      "contradicted": 5,
+      "abstained": 0
+    },
+    "supported_rate": 0.0333,
+    "unsupported_rate": 0.4167,
+    "no_evidence_admitted_rate": 0.4667,
+    "contradicted_rate": 0.0833,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.0876,
+    "avg_max_contradiction": 0.2111,
+    "presence_method_counts": {
+      "substring": 27,
+      "fragment": 0,
+      "fuzzy": 0,
+      "none": 33
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "ircot_32b_pubmedqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 11,
+      "unsupported": 46,
+      "no_evidence_admitted": 0,
+      "contradicted": 3,
+      "abstained": 0
+    },
+    "supported_rate": 0.1833,
+    "unsupported_rate": 0.7667,
+    "no_evidence_admitted_rate": 0.0,
+    "contradicted_rate": 0.05,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.1783,
+    "avg_max_contradiction": 0.0743,
+    "presence_method_counts": {
+      "substring": 58,
+      "fragment": 0,
+      "fuzzy": 2,
+      "none": 0
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "crag_7b_medmcqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 1,
+      "unsupported": 34,
+      "no_evidence_admitted": 17,
+      "contradicted": 8,
+      "abstained": 0
+    },
+    "supported_rate": 0.0167,
+    "unsupported_rate": 0.5667,
+    "no_evidence_admitted_rate": 0.2833,
+    "contradicted_rate": 0.1333,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.0578,
+    "avg_max_contradiction": 0.2309,
+    "presence_method_counts": {
+      "substring": 29,
+      "fragment": 0,
+      "fuzzy": 7,
+      "none": 24
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "crag_7b_pubmedqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 4,
+      "unsupported": 47,
+      "no_evidence_admitted": 0,
+      "contradicted": 9,
+      "abstained": 0
+    },
+    "supported_rate": 0.0667,
+    "unsupported_rate": 0.7833,
+    "no_evidence_admitted_rate": 0.0,
+    "contradicted_rate": 0.15,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.0921,
+    "avg_max_contradiction": 0.1555,
+    "presence_method_counts": {
+      "substring": 55,
+      "fragment": 1,
+      "fuzzy": 3,
+      "none": 1
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "crag_32b_medmcqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 5,
+      "unsupported": 37,
+      "no_evidence_admitted": 17,
+      "contradicted": 1,
+      "abstained": 0
+    },
+    "supported_rate": 0.0833,
+    "unsupported_rate": 0.6167,
+    "no_evidence_admitted_rate": 0.2833,
+    "contradicted_rate": 0.0167,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.294,
+    "avg_max_contradiction": 0.0879,
+    "presence_method_counts": {
+      "substring": 24,
+      "fragment": 0,
+      "fuzzy": 0,
+      "none": 36
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "crag_32b_pubmedqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 7,
+      "unsupported": 45,
+      "no_evidence_admitted": 0,
+      "contradicted": 8,
+      "abstained": 0
+    },
+    "supported_rate": 0.1167,
+    "unsupported_rate": 0.75,
+    "no_evidence_admitted_rate": 0.0,
+    "contradicted_rate": 0.1333,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.1287,
+    "avg_max_contradiction": 0.1291,
+    "presence_method_counts": {
+      "substring": 59,
+      "fragment": 0,
+      "fuzzy": 1,
+      "none": 0
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "hipporag_7b_medmcqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 2,
+      "unsupported": 41,
+      "no_evidence_admitted": 13,
+      "contradicted": 4,
+      "abstained": 0
+    },
+    "supported_rate": 0.0333,
+    "unsupported_rate": 0.6833,
+    "no_evidence_admitted_rate": 0.2167,
+    "contradicted_rate": 0.0667,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.0697,
+    "avg_max_contradiction": 0.1588,
+    "presence_method_counts": {
+      "substring": 22,
+      "fragment": 0,
+      "fuzzy": 10,
+      "none": 28
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "hipporag_7b_pubmedqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 11,
+      "unsupported": 40,
+      "no_evidence_admitted": 0,
+      "contradicted": 9,
+      "abstained": 0
+    },
+    "supported_rate": 0.1833,
+    "unsupported_rate": 0.6667,
+    "no_evidence_admitted_rate": 0.0,
+    "contradicted_rate": 0.15,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.1787,
+    "avg_max_contradiction": 0.1672,
+    "presence_method_counts": {
+      "substring": 59,
+      "fragment": 0,
+      "fuzzy": 1,
+      "none": 0
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "hipporag_32b_medmcqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 3,
+      "unsupported": 34,
+      "no_evidence_admitted": 20,
+      "contradicted": 3,
+      "abstained": 0
+    },
+    "supported_rate": 0.05,
+    "unsupported_rate": 0.5667,
+    "no_evidence_admitted_rate": 0.3333,
+    "contradicted_rate": 0.05,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.1261,
+    "avg_max_contradiction": 0.1579,
+    "presence_method_counts": {
+      "substring": 24,
+      "fragment": 0,
+      "fuzzy": 1,
+      "none": 35
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  },
+  "hipporag_32b_pubmedqa": {
+    "n": 60,
+    "label_counts": {
+      "supported": 13,
+      "unsupported": 44,
+      "no_evidence_admitted": 1,
+      "contradicted": 2,
+      "abstained": 0
+    },
+    "supported_rate": 0.2167,
+    "unsupported_rate": 0.7333,
+    "no_evidence_admitted_rate": 0.0167,
+    "contradicted_rate": 0.0333,
+    "abstained_rate": 0.0,
+    "avg_max_entailment": 0.2157,
+    "avg_max_contradiction": 0.0497,
+    "presence_method_counts": {
+      "substring": 58,
+      "fragment": 0,
+      "fuzzy": 1,
+      "none": 1
+    },
+    "judge_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "evidence_policy": "cited_only"
+  }
+}

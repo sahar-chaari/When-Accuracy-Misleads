@@ -1,0 +1,14 @@
+{
+  "config_id": "crag_qwen25_7b_medmcqa_pmid",
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "es_index": "medrag_pubmed_textbooks_statpearls",
+  "top_k": 5,
+  "top_k_second_pass": 5,
+  "max_answer_tokens": 256,
+  "evaluator_prompt_file": "prompts/medmcqa/evaluator.txt",
+  "reader_prompt_file": "prompts/medmcqa/reader.txt",
+  "web_search": "disabled",
+  "fallback_strategy": "second_bm25_pass_keyword_extracted",
+  "knowledge_refinement": "passage_level",
+  "evaluator_model": "same_as_reader_zero_shot"
+}

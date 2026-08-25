@@ -1,0 +1,21 @@
+{
+  "n_total": 60,
+  "zero_retrieval_rows": 0,
+  "evidence_present_pct": 100.0,
+  "confidence_coverage_pct": 100.0,
+  "confidence_min": 0.0,
+  "confidence_max": 1.0,
+  "confidence_avg": 0.519,
+  "prediction_distribution": {
+    "A": 16,
+    "B": 15,
+    "D": 11,
+    "C": 9,
+    "unknown": 9
+  },
+  "crag_action_distribution": {
+    "incorrect": 40,
+    "ambiguous": 16,
+    "correct": 4
+  }
+}

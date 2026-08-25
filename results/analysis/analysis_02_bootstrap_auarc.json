@@ -1,0 +1,151 @@
+{
+  "seed": 42,
+  "n_boot": 1000,
+  "method": "threshold-sweep [0.0,0.1,...,1.0], conf=None->abstain, zero-coverage threshold skipped (skip-None)",
+  "ci_table": [
+    {
+      "system": "IRCoT 7B",
+      "benchmark": "MedMCQA",
+      "auarc_point": 0.4525,
+      "auarc_boot_mean": 0.4562,
+      "ci_lo": 0.3009,
+      "ci_hi": 0.6313
+    },
+    {
+      "system": "IRCoT 32B",
+      "benchmark": "MedMCQA",
+      "auarc_point": 0.5952,
+      "auarc_boot_mean": 0.5931,
+      "ci_lo": 0.4607,
+      "ci_hi": 0.7224
+    },
+    {
+      "system": "CRAG 7B",
+      "benchmark": "MedMCQA",
+      "auarc_point": 0.5133,
+      "auarc_boot_mean": 0.5083,
+      "ci_lo": 0.3083,
+      "ci_hi": 0.6768
+    },
+    {
+      "system": "CRAG 32B",
+      "benchmark": "MedMCQA",
+      "auarc_point": 0.4452,
+      "auarc_boot_mean": 0.4424,
+      "ci_lo": 0.2657,
+      "ci_hi": 0.5959
+    },
+    {
+      "system": "HippoRAG 7B",
+      "benchmark": "MedMCQA",
+      "auarc_point": 0.5125,
+      "auarc_boot_mean": 0.5162,
+      "ci_lo": 0.3565,
+      "ci_hi": 0.682
+    },
+    {
+      "system": "HippoRAG 32B",
+      "benchmark": "MedMCQA",
+      "auarc_point": 0.6974,
+      "auarc_boot_mean": 0.6921,
+      "ci_lo": 0.554,
+      "ci_hi": 0.8033
+    },
+    {
+      "system": "IRCoT 7B",
+      "benchmark": "PubMedQA",
+      "auarc_point": 0.6074,
+      "auarc_boot_mean": 0.5242,
+      "ci_lo": 0.2995,
+      "ci_hi": 0.7268
+    },
+    {
+      "system": "IRCoT 32B",
+      "benchmark": "PubMedQA",
+      "auarc_point": 0.4712,
+      "auarc_boot_mean": 0.4078,
+      "ci_lo": 0.2437,
+      "ci_hi": 0.5513
+    },
+    {
+      "system": "CRAG 7B",
+      "benchmark": "PubMedQA",
+      "auarc_point": 0.4308,
+      "auarc_boot_mean": 0.3946,
+      "ci_lo": 0.2621,
+      "ci_hi": 0.532
+    },
+    {
+      "system": "CRAG 32B",
+      "benchmark": "PubMedQA",
+      "auarc_point": 0.5051,
+      "auarc_boot_mean": 0.5004,
+      "ci_lo": 0.3512,
+      "ci_hi": 0.6398
+    },
+    {
+      "system": "HippoRAG 7B",
+      "benchmark": "PubMedQA",
+      "auarc_point": 0.3557,
+      "auarc_boot_mean": 0.3497,
+      "ci_lo": 0.2508,
+      "ci_hi": 0.4648
+    },
+    {
+      "system": "HippoRAG 32B",
+      "benchmark": "PubMedQA",
+      "auarc_point": 0.4486,
+      "auarc_boot_mean": 0.3893,
+      "ci_lo": 0.242,
+      "ci_hi": 0.5264
+    }
+  ],
+  "inversion_tests": [
+    {
+      "label": "HippoRAG 32B #1 -> #4 (MedMCQA -> PubMedQA); IRCoT 7B #4 -> #1",
+      "desc": "HippoRAG 32B > IRCoT 7B on MedMCQA AUARC; IRCoT 7B > HippoRAG 32B on PubMedQA AUARC",
+      "delta_bench1": {
+        "pair": "HippoRAG 32B - IRCoT 7B on MedMCQA",
+        "mean": 0.2359,
+        "ci": [
+          0.0313,
+          0.4303
+        ]
+      },
+      "delta_bench2": {
+        "pair": "IRCoT 7B - HippoRAG 32B on PubMedQA",
+        "mean": 0.1349,
+        "ci": [
+          -0.1222,
+          0.3779
+        ]
+      },
+      "inversion_holds_pct": 79.6,
+      "n_boot": 1000,
+      "seed": 42
+    },
+    {
+      "label": "IRCoT 32B > IRCoT 7B on MedMCQA; reversed on PubMedQA",
+      "desc": "IRCoT 32B > IRCoT 7B on MedMCQA AUARC; IRCoT 7B > IRCoT 32B on PubMedQA AUARC",
+      "delta_bench1": {
+        "pair": "IRCoT 32B - IRCoT 7B on MedMCQA",
+        "mean": 0.1368,
+        "ci": [
+          -0.0483,
+          0.3242
+        ]
+      },
+      "delta_bench2": {
+        "pair": "IRCoT 7B - IRCoT 32B on PubMedQA",
+        "mean": 0.1163,
+        "ci": [
+          -0.1397,
+          0.3795
+        ]
+      },
+      "inversion_holds_pct": 68.5,
+      "n_boot": 1000,
+      "seed": 42
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "benchmark": "medmcqa",
+  "num_examples": 60,
+  "accuracy": 0.48333333333333334,
+  "macro_f1": 0.4816376152583049,
+  "unknown_prediction_count": 4,
+  "gold_counts": {
+    "A": 15,
+    "D": 15,
+    "C": 15,
+    "B": 15
+  },
+  "prediction_counts": {
+    "A": 25,
+    "D": 6,
+    "C": 14,
+    "B": 11,
+    "unknown": 4
+  },
+  "confusion": {
+    "A": {
+      "A": 10,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "unknown": 1
+    },
+    "B": {
+      "A": 5,
+      "B": 8,
+      "C": 0,
+      "D": 1,
+      "unknown": 1
+    },
+    "C": {
+      "A": 4,
+      "B": 0,
+      "C": 9,
+      "D": 1,
+      "unknown": 1
+    },
+    "D": {
+      "A": 6,
+      "B": 2,
+      "C": 4,
+      "D": 2,
+      "unknown": 1
+    }
+  },
+  "error_count": 0,
+  "input_jsonl": "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615.jsonl"
+}

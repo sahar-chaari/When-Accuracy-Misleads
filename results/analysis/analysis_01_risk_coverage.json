@@ -1,0 +1,98 @@
+{
+  "IRCoT 7B|MedMCQA": {
+    "system": "IRCoT 7B",
+    "benchmark": "MedMCQA",
+    "auarc_paper": 0.452,
+    "auarc_recomputed": 0.4525,
+    "diff": 0.0005,
+    "note": null
+  },
+  "IRCoT 32B|MedMCQA": {
+    "system": "IRCoT 32B",
+    "benchmark": "MedMCQA",
+    "auarc_paper": 0.595,
+    "auarc_recomputed": 0.5952,
+    "diff": 0.0002,
+    "note": null
+  },
+  "CRAG 7B|MedMCQA": {
+    "system": "CRAG 7B",
+    "benchmark": "MedMCQA",
+    "auarc_paper": 0.513,
+    "auarc_recomputed": 0.5133,
+    "diff": 0.0003,
+    "note": null
+  },
+  "CRAG 32B|MedMCQA": {
+    "system": "CRAG 32B",
+    "benchmark": "MedMCQA",
+    "auarc_paper": 0.445,
+    "auarc_recomputed": 0.4452,
+    "diff": 0.0002,
+    "note": null
+  },
+  "HippoRAG 7B|MedMCQA": {
+    "system": "HippoRAG 7B",
+    "benchmark": "MedMCQA",
+    "auarc_paper": 0.513,
+    "auarc_recomputed": 0.5125,
+    "diff": -0.0005,
+    "note": null
+  },
+  "HippoRAG 32B|MedMCQA": {
+    "system": "HippoRAG 32B",
+    "benchmark": "MedMCQA",
+    "auarc_paper": 0.697,
+    "auarc_recomputed": 0.6974,
+    "diff": 0.0004,
+    "note": null
+  },
+  "IRCoT 7B|PubMedQA": {
+    "system": "IRCoT 7B",
+    "benchmark": "PubMedQA",
+    "auarc_paper": 0.607,
+    "auarc_recomputed": 0.6074,
+    "diff": 0.0004,
+    "note": null
+  },
+  "IRCoT 32B|PubMedQA": {
+    "system": "IRCoT 32B",
+    "benchmark": "PubMedQA",
+    "auarc_paper": 0.471,
+    "auarc_recomputed": 0.4712,
+    "diff": 0.0002,
+    "note": null
+  },
+  "CRAG 7B|PubMedQA": {
+    "system": "CRAG 7B",
+    "benchmark": "PubMedQA",
+    "auarc_paper": 0.431,
+    "auarc_recomputed": 0.4308,
+    "diff": -0.0002,
+    "note": null
+  },
+  "CRAG 32B|PubMedQA": {
+    "system": "CRAG 32B",
+    "benchmark": "PubMedQA",
+    "auarc_paper": 0.505,
+    "auarc_recomputed": 0.5051,
+    "diff": 0.0001,
+    "note": null
+  },
+  "HippoRAG 7B|PubMedQA": {
+    "system": "HippoRAG 7B",
+    "benchmark": "PubMedQA",
+    "auarc_paper": 0.356,
+    "auarc_recomputed": 0.3557,
+    "diff": -0.0003,
+    "note": null
+  },
+  "HippoRAG 32B|PubMedQA": {
+    "system": "HippoRAG 32B",
+    "benchmark": "PubMedQA",
+    "auarc_paper": 0.449,
+    "auarc_recomputed": 0.4486,
+    "diff": -0.0004,
+    "note": null
+  }
+}

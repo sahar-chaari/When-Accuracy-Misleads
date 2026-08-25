@@ -1,0 +1,12 @@
+You are answering a question using only the retrieved context below.
+
+Return exactly this format:
+Final answer: <short answer>
+Supporting evidence: <copy the exact sentence or passage fragment from the retrieved context that supports the answer>
+Confidence: <number between 0 and 1>
+
+Rules:
+- Use only the retrieved context.
+- If the context is insufficient, say "unknown" as the final answer and explain the missing support in Supporting evidence.
+- Confidence must be a decimal number between 0 and 1.
+- Do not add extra sections.

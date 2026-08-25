@@ -1,0 +1,97 @@
+{
+  "run_id": "hipporag7b_medmcqa_20260615",
+  "system": "hipporag_official_remote",
+  "config_id": "hipporag_qwen25_7b_medmcqa_evidence_conf_v1",
+  "official_root": "HippoRAG/external/official_hipporag",
+  "questions_jsonl": "data/fixed/medmcqa_60_balanced_seed42_questions.jsonl",
+  "corpus_jsonl": "data/corpus/medrag_textbooks_statpearls_corpus.jsonl",
+  "corpus_limit": null,
+  "output_jsonl": "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615.jsonl",
+  "metrics_json": "HippoRAG/results/medmcqa/metrics_medmcqa_60_hipporag_qwen25_7b_20260615.json",
+  "save_dir": "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615_hipporag_workdir",
+  "llm_name": "Qwen/Qwen2.5-7B-Instruct",
+  "llm_base_url": "openai-compatible endpoint",
+  "embedding_name": "Transformers/models/minilm_l6",
+  "embedding_base_url": null,
+  "backend": "official_hipporag_openai_compatible",
+  "openie_workers": 24,
+  "num_corpus_passages": 20000,
+  "num_questions": 60,
+  "gold_counts": {
+    "A": 15,
+    "D": 15,
+    "C": 15,
+    "B": 15
+  },
+  "elapsed_seconds": 2699.285,
+  "rows": 60,
+  "parse_error_count": 1,
+  "evidence_found_count": 21,
+  "openie_summary": {
+    "graph_nodes": 104805,
+    "graph_edges": 1595703,
+    "graph_active": true,
+    "fact_embedding_count": 93486,
+    "graph_extracted_fact_count": 93486,
+    "graph_total_triples": 1595703,
+    "openie_json_files": [
+      "HippoRAG/results/medmcqa/hipporag_qwen25_7b_medmcqa_60_20260615_hipporag_workdir/openie_results_ner_Qwen_Qwen2.5-7B-Instruct.json"
+    ],
+    "openie_rows": 20000,
+    "openie_extracted_triples": 96299,
+    "openie_extracted_entities": 123631
+  },
+  "metrics": {
+    "benchmark": "medmcqa",
+    "num_examples": 60,
+    "accuracy": 0.48333333333333334,
+    "macro_f1": 0.4816376152583049,
+    "unknown_prediction_count": 0,
+    "gold_counts": {
+      "A": 15,
+      "D": 15,
+      "C": 15,
+      "B": 15
+    },
+    "prediction_counts": {
+      "A": 25,
+      "D": 6,
+      "C": 14,
+      "B": 11,
+      "UNKNOWN": 4
+    },
+    "confusion": {
+      "A": {
+        "A": 10,
+        "B": 1,
+        "C": 1,
+        "D": 2,
+        "unknown": 0
+      },
+      "B": {
+        "A": 5,
+        "B": 8,
+        "C": 0,
+        "D": 1,
+        "unknown": 0
+      },
+      "C": {
+        "A": 4,
+        "B": 0,
+        "C": 9,
+        "D": 1,
+        "unknown": 0
+      },
+      "D": {
+        "A": 6,
+        "B": 2,
+        "C": 4,
+        "D": 2,
+        "unknown": 0
+      }
+    },
+    "confidence_present_count": 59,
+    "evidence_found_count": 21,
+    "error_count": 0
+  }
+}

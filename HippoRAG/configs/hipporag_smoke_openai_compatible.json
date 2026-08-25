@@ -1,0 +1,18 @@
+{
+  "system": "hipporag_official_hf_local",
+  "config_id": "hipporag_official_smoke_evidence_conf_v1",
+  "benchmark": "hipporag_smoke",
+  "official_repo": "external/official_hipporag",
+  "llm_name_default": "gpt-4o-mini",
+  "embedding_name_default": "text-embedding-3-small",
+  "openie_mode": "online",
+  "retrieval_top_k": 3,
+  "qa_top_k": 3,
+  "temperature": 0,
+  "max_new_tokens": 256,
+  "notes": [
+    "Tiny smoke test only.",
+    "Uses official HippoRAG package for indexing/retrieval.",
+    "Wrapper applies shared answer/evidence/confidence output contract."
+  ]
+}

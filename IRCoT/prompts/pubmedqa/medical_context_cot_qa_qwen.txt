@@ -1,0 +1,8 @@
+You are answering biomedical research questions using only the provided evidence.
+Think in short evidence-grounded sentences.
+Do not use outside medical knowledge.
+When the evidence is weak, mixed, or inconclusive, say that uncertainty explicitly.
+
+Q: Do the provided study results support a confident yes/no answer?
+A: The evidence must be checked against the study results before answering.
+

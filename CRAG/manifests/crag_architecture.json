@@ -1,0 +1,44 @@
+{
+  "baseline_name": "CRAG",
+  "paper": "Corrective Retrieval Augmented Generation (Yan et al., 2024)",
+  "arxiv": "2401.15884",
+  "source_note": "Custom faithful re-implementation of the CRAG algorithm; no official repo dependency.",
+  "implementation_file": "scripts/run_crag.py",
+
+  "adaptations_from_paper": [
+    {
+      "component": "retrieval_evaluator",
+      "paper_design": "Fine-tuned T5-large on labeled (question, passage, label) triples",
+      "our_design": "Qwen2.5-{7,32}B-Instruct zero-shot prompt classification (Correct/Incorrect/Ambiguous)",
+      "reason": "No fine-tuning data available; zero-shot Qwen is the closest local alternative without introducing a second model family"
+    },
+    {
+      "component": "web_search_fallback",
+      "paper_design": "Google/Bing web search for Incorrect and Ambiguous branches",
+      "our_design": "Second BM25/ES pass over the same MedRAG StatPearls+textbooks corpus, using keyword-extracted query (stop-word removal)",
+      "reason": "Web search disabled per experiment constraints; the shared corpus is the same evidence source used by all three baselines"
+    },
+    {
+      "component": "knowledge_refinement",
+      "paper_design": "Sentence-level decomposition: score each sentence with evaluator, keep top-k",
+      "our_design": "Passage-level filtering: keep entire passages judged Correct",
+      "reason": "Sentence-level scoring would triple evaluator calls; passage-level is simpler and sufficient for 200-word passages"
+    }
+  ],
+
+  "shared_controls": {
+    "reader_model": "Qwen/Qwen2.5-{7,32}B-Instruct (local HF, same as IRCoT and HippoRAG)",
+    "corpus": "MedRAG textbooks+StatPearls via Elasticsearch BM25 (same index as IRCoT MedMCQA)",
+    "pubmedqa_corpus": "PMID-restricted 207-passage corpus (same as IRCoT PubMedQA v2 and HippoRAG PubMedQA)",
+    "question_sets": "pubmedqa_60_balanced_seed42 and medmcqa_60_balanced_seed42 (identical to other baselines)",
+    "output_schema": "Canonical per-row JSONL with predicted_answer, confidence, supporting_evidence, retrieved_passages — identical to IRCoT/HippoRAG so all scorers run unchanged"
+  },
+
+  "decision_logic": {
+    "correct": "Any retrieved passage judged Correct → use only Correct passages as context",
+    "incorrect": "All passages judged Incorrect → second BM25 pass with keyword query",
+    "ambiguous": "Mix of labels → Correct passages + second BM25 pass, deduplicated"
+  },
+
+  "expected_pubmedqa_recall_note": "Gold PubMedQA abstracts are not present in the MedRAG StatPearls+textbooks corpus. Low retrieval recall is expected on PubMedQA. This run is treated as a calibration/overconfidence probe — not an accuracy benchmark — and is flagged explicitly in health check output."
+}

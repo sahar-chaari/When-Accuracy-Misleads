@@ -1,0 +1,20 @@
+{
+  "n_total": 60,
+  "zero_retrieval_rows": 0,
+  "evidence_present_pct": 100.0,
+  "confidence_coverage_pct": 100.0,
+  "confidence_min": 0.3,
+  "confidence_max": 1.0,
+  "confidence_avg": 0.762,
+  "prediction_distribution": {
+    "maybe": 18,
+    "yes": 19,
+    "no": 23
+  },
+  "crag_action_distribution": {
+    "correct": 55,
+    "ambiguous": 5
+  },
+  "avg_retrieval_recall": 0.74,
+  "retrieval_recall_note": "PubMedQA gold abstracts are not in the MedRAG corpus; low recall expected — treat this arm as a calibration probe."
+}

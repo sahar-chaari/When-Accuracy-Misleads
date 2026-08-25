@@ -1,0 +1,20 @@
+# Large corpus file — download separately (see README)
+data/corpus/medrag_textbooks_statpearls_corpus.jsonl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files
+*.bak
+
+# SLURM log files
+logs/
+*.slurm.out
+
+# macOS
+.DS_Store
+
+*.md
+*.tex

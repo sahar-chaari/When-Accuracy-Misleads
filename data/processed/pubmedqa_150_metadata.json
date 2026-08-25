@@ -1,0 +1,21 @@
+{
+  "input": "data/pubmedqa/data/test_set.json",
+  "name": "pubmedqa_150",
+  "limit_requested": 150,
+  "num_questions": 150,
+  "num_passages": 517,
+  "seed": 42,
+  "tune_fraction": 0.5,
+  "label_counts": {
+    "yes": 50,
+    "no": 50,
+    "maybe": 50
+  },
+  "split_counts": {
+    "tune": 75,
+    "eval": 75
+  },
+  "question_path": "data/processed/pubmedqa_150_questions.jsonl",
+  "corpus_path": "data/processed/pubmedqa_150_corpus.jsonl",
+  "split_path": "data/processed/pubmedqa_150_splits.json"
+}
